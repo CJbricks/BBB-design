@@ -9,9 +9,10 @@
         justify-content: center;
         padding-top: 5%;
         margin-left: 25px;
+      position: sticky;
      }
   
-  .work, .contact, .store { 
+  .store { 
     display:inline-block; 
     font-size:24px; 
     font-family: 'Arial Black'; 
@@ -20,6 +21,21 @@
     width:300px; 
     height:90px; 
     border: 1.5px solid #C53030; 
+    transition:.15s ease; 
+    opacity:1; 
+    text-align:center;
+}
+
+.work, .contact {
+    display:inline-block; 
+    font-size:24px; 
+    font-family: 'Arial Black'; 
+    color:#C53030; 
+    line-height:90px; 
+    width:300px; 
+    height:90px; 
+    border: 1.5px solid #C53030; 
+    border-right: 0px;
     transition:.15s ease; 
     opacity:1; 
     text-align:center;
