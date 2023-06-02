@@ -1,0 +1,50 @@
+.body { width:100%; height:100%; background:#f2f2f2;
+    display: -webkit-flex; /* Safari */
+     -webkit-justify-content: center; /* Safari 6.1+ */
+     -webkit-align-item: center; /* Safari 6.1+ */
+        display: flex;
+        align-items: center;
+        justify-content: center; padding-top:5%;
+     }
+  
+  .work, .contact, .store { 
+    display:inline-block; 
+    font-size:24px; 
+    font-family: 'Arial Black'; 
+    color:#C53030; 
+    line-height:90px; 
+    width:300px; 
+    height:90px; 
+    border: 1px solid #C53030; 
+    transition:.15s ease; 
+    opacity:1; 
+    text-align:center;
+}
+  
+  .contact:hover {
+    border:1px solid #C53030; 
+    border-right:0px; 
+    background:#C53030; 
+    color:#C53030;
+    transition:.5s ease;
+    cursor: pointer;
+  }
+  
+  .work:hover { 
+    border:1px solid #C53030; 
+    border-right:0px; 
+    background:#C53030; 
+    color:#C53030;
+    transition:.5s ease;
+    cursor: pointer;
+}
+  
+  .store:hover { 
+    border:1px solid #C53030; 
+    border-right:0px; 
+    background:#C53030; 
+    color:#C53030;
+    transition:.5s ease;
+    cursor: pointer;
+}
+  
