@@ -9,9 +9,9 @@ export default function FlatMenu() {
         <Box ml={'25px'} textAlign={'left'}>
 
         {/* Heading Text */}
-        
-            <Text as={'h1'} color={'red.500'} fontSize={['18px', '24px', '42px']} fontFamily={'helvetica'} fontWeight={600}>CJ Christian</Text>
-            <Text as={'h2'} color={'red.400'}fontSize={['18px', '24px', '42px']} fontFamily={'helvetica'} fontWeight={600}>Design Development</Text>
+
+            <Text as={'h1'} color={'alphBlack.100'} fontSize={['18px', '24px', '42px']}  fontWeight={700}>CJ Christian</Text>
+            <Text as={'h2'} color={'red.600'}fontSize={['18px', '24px', '42px']} fontWeight={700}>Design Development</Text>
         </Box> 
             
         <Spacer />

@@ -1,10 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import DirectoryPage from './DirectoryPage.js'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto({ 
+  subsets: ['latin'],
+  weight: ['400', '700'] })
 
 export default function Home() {
   return (

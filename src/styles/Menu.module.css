@@ -1,10 +1,13 @@
-.body { width:100%; height:100%;
+.body { 
+    width:100%; 
+    height:100%;
     display: -webkit-flex; /* Safari */
      -webkit-justify-content: center; /* Safari 6.1+ */
      -webkit-align-item: center; /* Safari 6.1+ */
         display: flex;
         align-items: center;
-        justify-content: center; padding-top:5%;
+        justify-content: center;
+        padding-top: 5%;
         margin-left: 25px;
      }
   
@@ -16,7 +19,7 @@
     line-height:90px; 
     width:300px; 
     height:90px; 
-    border: 1px solid #C53030; 
+    border: 1.5px solid #C53030; 
     transition:.15s ease; 
     opacity:1; 
     text-align:center;
@@ -49,3 +52,14 @@
     cursor: pointer;
 }
   
+
+@media only screen and (max-width: 480px) {
+    .work, .store, .contact {
+        width: 100px;
+        height: 30px;
+    }
+
+    .body {
+        flex-wrap: wrap;
+    }
+}
