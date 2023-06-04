@@ -17,7 +17,7 @@ export default function FlatMenu() {
 
         {/* Flat Menu */}
 
-         <div className={styles.body}>
+         <div className={styles.body} id="body">
                 <div className={styles.work}>Work
                 </div>
                 <div className={styles.contact}>Contact
