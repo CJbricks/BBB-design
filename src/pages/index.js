@@ -10,9 +10,10 @@ export const roboto = Roboto({
   subsets: ['latin'],
   weight: ['400', '700'] })
 
-export const noto = Noto_Sans_JP({
+export const notoSansJp = Noto_Sans_JP({
   subsets: ['latin'],
-  weight: ['400', '700']
+  weight: ['400', '700'],
+  preload: 'false'
 })
 
 export default function Home() {

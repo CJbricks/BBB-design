@@ -6,11 +6,11 @@ self.__NEXT_FONT_MANIFEST={
     ]
   },
   "app": {
-    "/Users/cj/Documents/bbb-design/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[1].oneOf[3].use[1]!/Users/cj/Documents/bbb-design/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[1].oneOf[3].use[2]!/Users/cj/Documents/bbb-design/node_modules/next/font/google/target.css?{\"path\":\"src/pages/index.js\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\",\"700\"]}],\"variableName\":\"roboto\"}": [
+    "/Users/cj/Documents/bbb-design/BBB-design/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[1].oneOf[3].use[1]!/Users/cj/Documents/bbb-design/BBB-design/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[1].oneOf[3].use[2]!/Users/cj/Documents/bbb-design/BBB-design/node_modules/next/font/google/target.css?{\"path\":\"src/pages/index.js\",\"import\":\"Roboto\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\",\"700\"]}],\"variableName\":\"roboto\"}": [
       "static/media/934c4b7cb736f2a3-s.p.woff2",
       "static/media/0e4fe491bf84089c-s.p.woff2"
     ],
-    "/Users/cj/Documents/bbb-design/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[1].oneOf[3].use[1]!/Users/cj/Documents/bbb-design/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[1].oneOf[3].use[2]!/Users/cj/Documents/bbb-design/node_modules/next/font/google/target.css?{\"path\":\"src/pages/index.js\",\"import\":\"Noto_Sans_JP\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\",\"700\"]}],\"variableName\":\"noto\"}": []
+    "/Users/cj/Documents/bbb-design/BBB-design/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[1].oneOf[3].use[1]!/Users/cj/Documents/bbb-design/BBB-design/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[1].oneOf[3].use[2]!/Users/cj/Documents/bbb-design/BBB-design/node_modules/next/font/google/target.css?{\"path\":\"src/pages/index.js\",\"import\":\"Noto_Sans_JP\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\",\"700\"],\"preload\":\"false\"}],\"variableName\":\"notoSansJp\"}": []
   },
   "appUsingSizeAdjust": true,
   "pagesUsingSizeAdjust": true
