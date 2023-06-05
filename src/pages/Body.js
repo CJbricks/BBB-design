@@ -5,7 +5,7 @@ import styles from '@/styles/Imagegrid.module.css'
 export default function Body() {
   return (
     <>
-      <body>
+      
          <Spacer />
          <Grid
             columns={[1, 1, 3]}
@@ -17,12 +17,13 @@ export default function Body() {
             templateRows='repeat(3, 1fr)'
             templateColumns='repeat(5, 1fr)'
             gap={4}>
+            
             <GridItem rowSpan={2} colSpan={1} >
-              <Image src="/images/brands-people-0adHvNJu-Zo-unsplash.jpeg" alt="print-design-image"className={styles.scale} />
+              <Image src="/images/print-two.jpg" alt="print-design-image"className={styles.scale} />
                 <Container textAlign='center'>
                     <Text color={'red.500'} fontWeight={'700'} fontSize={['12px', '24px', '30px']}>PRINT DESIGN</Text>
                 </Container>
-              <Image src="/images/print.jpg" alt="print-design"  mt={['2px', '5px', '10px']} className={styles.scale} />
+              <Image src="/images/print.jpg" alt="print-design"  mt={['2px', '2px', '2px']} className={styles.scale} />
                
             </GridItem>
 
@@ -31,7 +32,7 @@ export default function Body() {
                   <Text  position={'absolute'} color={'red.500'} fontWeight={'700'} fontSize={['12px', '32px', '48px']}>WEB DEV</Text>
               </Container>
                 <Image src="/images/jackson-sophat-_t-l5FFH8VA-unsplash.jpeg" alt="web-design-image" className={styles.scale} />
-                <Image src="/images/code.png" alt="web-design-image"  mt={'10px'} className={styles.scale} />
+                <Image src="/images/brands-people-0adHvNJu-Zo-unsplash.jpeg" alt="web-design-image"  mt={'10px'} className={styles.scale} />
                
             </GridItem>
 
@@ -43,7 +44,7 @@ export default function Body() {
             </GridItem>
          </Grid>
 
-      </body>
+      
     </>
   )
 }
