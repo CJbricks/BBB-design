@@ -1,12 +1,14 @@
 import React from 'react'
 import { Grid, GridItem, Spacer, Text, Link, Image, Container } from '@chakra-ui/react'
 import styles from '@/styles/Imagegrid.module.css'
+import SGrid from './SGrid.js'
 
 export default function Body() {
   return (
     <>
       
-         <Spacer />
+      <SGrid />
+      <Spacer />
          <Grid
             columns={[1, 1, 3]}
             mt={'200px'}
@@ -43,6 +45,9 @@ export default function Body() {
                 <Image src="/images/nick-adams-yTWq8n3-4k0-unsplash.jpeg" alt="graphic-design-image" className={styles.scale}/>
             </GridItem>
          </Grid>
+      <Spacer />
+
+      
 
       
     </>
