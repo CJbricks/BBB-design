@@ -7,7 +7,7 @@ import Link from 'next/link'
 export default function Footer() {
     return (
       <>
-              <SimpleGrid columns={[1, 1, 4]} alignItems="center" justifyContent="center" bg="red.600" p={3} mt={'800px'}>
+              <SimpleGrid columns={[1, 1, 4]} alignItems="center" justifyContent="center" bg="red.500" p={3} mt={['10px', '15px', '20px']}>
                   <Box width="50%" pl={50} mb={[6, 6, 0]}>
                     <Container>
                       <Link href='https://maps.google.com'>
@@ -35,7 +35,13 @@ export default function Footer() {
                         <br />
                         <Link href='https://www.github.com/cjbricks' target='_blank'>Github</Link>
                         <br />
-
+                        <Link href="./Blog" target="_blank">Blog</Link>
+                        <br />
+                        <Link href="https://www.cjchristian.com" target="_blank">Gallery Art</Link>
+                        <br />
+                        <Link href="https://google.com" target="_blank">Bot-Tester</Link>
+                        <br />
+                        <Link href="https://google.com" target="_blank">MG Body Mod</Link>
                         </Text>
                     </Container>
                   </Box>
@@ -48,9 +54,6 @@ export default function Footer() {
                     </Container>
                   </Box>
                   <Box width="50%" pl={50} mb={[6, 6, 0]}>
-                    <Text color='whiteAlpha.900'>
-                      Where to Find us:
-                    </Text>
                     <Text color='whiteAlpha.900'>
                     <Link href='https://www.earthbuddypet.com' target='_blank'>Earth Buddy Pet CBD</Link>
                         <br />

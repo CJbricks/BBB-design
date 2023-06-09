@@ -77,6 +77,10 @@
   font-family: 'notoSansJP', sans-serif;
 }
 
+.icons:hover {
+  cursor: pointer;
+}
+
 
   
 
@@ -88,5 +92,9 @@
 
     .body {
         flex-wrap: wrap;
+    }
+
+    .quotes {
+      display: none;
     }
 }
