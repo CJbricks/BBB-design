@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '@/styles/Form.module.css'
-import { SimpleGrid, Text, Box, Flex, FormControl, FormLabel, FormHelperText, FormErrorMessage, Input, Button, InputGroup, InputLeftElement } from '@chakra-ui/react'
-import Image from 'next/image'
+import { SimpleGrid, Text, Box, FormControl, FormLabel, FormHelperText, Input, Button, Highlight } from '@chakra-ui/react'
 import Link from 'next/link'
 import { useState } from 'react'
 
@@ -23,8 +22,8 @@ export default function FormGrid() {
 
   return (
     <>
-    <SimpleGrid columns={[1, 1, 2]} w="100%" alignItems={'center'} justifyContent={'center'} textAlign={'center'} m={2}>
-        <Box w={['240px', '300px', '710px']} fontWeight={700} fontSize={['14px', '18px', '28px']} p={5} border="1px solid red">
+    <SimpleGrid columns={[1, 1, 2]} w="100%" alignItems={'center'} justifyContent={'center'} textAlign={'center'} ml={2} mr={2} mt={10} mb={10}>
+        <Box w={['240px', '300px', '710px']} fontWeight={700} fontSize={['14px', '18px', '28px']} p={5} border="1px solid red" ml={5}>
         <FormControl>
               <FormLabel>
                 Email Address
@@ -57,7 +56,20 @@ export default function FormGrid() {
               onClick={(e) => console.log(stateArr[0], stateArr[1], stateArr[2] )}
               >Submit</Button>
         </Box>
-        <Box w={['240px', '300px', '710px']} border="1px solid red" >x</Box>
+        <Box w={['240px', '300px', '710px']} border="1px solid red" p={5}>
+          <Text color={'alphaBlack.1000'} fontWeight={700} fontSize={['18px', '28px', '48px']}>
+          <Highlight
+            query={['your', 'business', 'ideas']}
+            styles={{ px: '1', py: '1', rounded: 'full', bg: 'red.500', opacity: '85%' }}
+          >
+                Developing and designing responsive sites, graphics,
+                
+                and applications that fit
+                
+                your business and ideas.
+            </Highlight>
+          </Text>
+        </Box>
     </SimpleGrid>
   </>
   )
