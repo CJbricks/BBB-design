@@ -7,18 +7,17 @@ import Link from 'next/link'
 export default function Footer() {
     return (
       <>
-              <SimpleGrid columns={[1, 1, 4]} alignItems="center" justifyContent="center" bg="red.500" p={3} mt={['10px', '15px', '20px']}>
+              <SimpleGrid columns={[1, 1, 4]} alignItems="center" justifyContent="center" bg="red.500" p={3}  w="100%" fontWeight={700}>
                   <Box width="50%" pl={50} mb={[6, 6, 0]}>
                     <Container>
                       <Link href='https://maps.google.com'>
-                        <Text color='whiteAlpha.900'>
-                          Visit us in person
+                        <Text color='blackAlpha.900'>
+                          Contact us:
+                        <br />
+                          303-2**-3***
                         </Text>
-                        <Text color='whiteAlpha.900'>
-                          303-229-3663
-                        </Text>
-                        <Text color='whiteAlpha.900'>
-                        Location Icon
+                        <Text color='blackAlpha.900'>
+                        Proudly Serving:
                         AUSTIN TX 78681
                         USA
                         <br />
@@ -30,7 +29,7 @@ export default function Footer() {
                   </Box>
                   <Box width="50%" pl={50} display="inline" mb={[6, 6, 0]}>
                     <Container>
-                        <Text color='whiteAlpha.900'>
+                        <Text color='blackAlpha.900'>
                         <Link href='https://www.instagram.com/oreo.blizman' target='_blank'>Instagram</Link>
                         <br />
                         <Link href='https://www.github.com/cjbricks' target='_blank'>Github</Link>
@@ -40,21 +39,29 @@ export default function Footer() {
                         <Link href="https://www.cjchristian.com" target="_blank">Gallery Art</Link>
                         <br />
                         <Link href="https://google.com" target="_blank">Bot-Tester</Link>
-                        <br />
-                        <Link href="https://google.com" target="_blank">MG Body Mod</Link>
+                        
                         </Text>
                     </Container>
                   </Box>
                   <Box width="50%" pl={50} display="inline" mb={[6, 6, 0]}>
                     <Container>
-                        <Text color='whiteAlpha.900'>
-                        "Nov York"
+                        <Text color='blackAlpha.900'>
+                          <Link href="goodreads.com" target="_blank">Reading List</Link>
+                          <br />
+                          <Link href="goodreads.com" target="_blank">Book Reviews</Link>
+                          <br />
+                          <Link href="goodreads.com" target="_blank">Amazon Kindle Collection</Link>
+                          <br />
+                          <Link href="goodreads.com" target="_blank">PDF's</Link>
+                          <br />
+                          <Link href="goodreads.com" target="_blank">Something to think about</Link>
+                          <br />
                         
                         </Text>
                     </Container>
                   </Box>
                   <Box width="50%" pl={50} mb={[6, 6, 0]}>
-                    <Text color='whiteAlpha.900'>
+                    <Text color='blackAlpha.900'>
                     <Link href='https://www.earthbuddypet.com' target='_blank'>Earth Buddy Pet CBD</Link>
                         <br />
                     <Link href='https://www.happymonkeyiv.com' target='_blank'>Happy Monkey IV</Link>

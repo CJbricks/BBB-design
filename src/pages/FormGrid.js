@@ -22,8 +22,9 @@ export default function FormGrid() {
 
   return (
     <>
-    <SimpleGrid columns={[1, 1, 2]} w="100%" alignItems={'center'} justifyContent={'center'} textAlign={'center'} ml={2} mr={2} mt={10} mb={10}>
-        <Box w={['240px', '300px', '710px']} fontWeight={700} fontSize={['14px', '18px', '28px']} p={5} border="1px solid red" ml={5}>
+    <SimpleGrid columns={[1, 1, 2]} w="100%" align={'center'} justify={'center'} textAlign={'center'} ml={[5, 5, 8]} mr={[5, 5, 8]} mt={10} mb={10}>
+        <Box w={['400px', '500px', '710px']} fontWeight={700} fontSize={['14px', '18px', '32px']} p={5} ml={5}>
+          
         <FormControl>
               <FormLabel>
                 Email Address
@@ -56,7 +57,7 @@ export default function FormGrid() {
               onClick={(e) => console.log(stateArr[0], stateArr[1], stateArr[2] )}
               >Submit</Button>
         </Box>
-        <Box w={['240px', '300px', '710px']} border="1px solid red" p={5}>
+        <Box w={['400px', '500px', '710px']} p={5} ml={[5, 5, 0]}>
           <Text color={'alphaBlack.1000'} fontWeight={700} fontSize={['18px', '28px', '48px']}>
           <Highlight
             query={['your', 'business', 'ideas']}
