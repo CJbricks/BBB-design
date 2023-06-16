@@ -8,8 +8,8 @@ export default function Loom() {
             src="https://www.loom.com/embed/04292413a01e4da39127811cf4bc8a0e?sid=da7e178d-6c71-47e5-bcbd-d401a353bed1" 
             frameborder="0" 
             webkitallowfullscreen 
-            mozallowfullscreen 
-            allowfullscreen 
+            mozallowfullscreen="true"
+            allowFullScreen 
             style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}></iframe>
         </div>
     </>
