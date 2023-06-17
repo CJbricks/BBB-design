@@ -7,7 +7,7 @@ import Link from 'next/link'
 export default function Footer() {
     return (
       <>
-              <SimpleGrid columns={[1, 1, 4]} alignItems="center" justifyContent="center" bg="red.500" p={3}  w="100%" fontWeight={700}>
+              <SimpleGrid columns={[1, 1, 4]} alignItems="center" justifyContent="center" bg="gray.50" p={3}  w="100%" fontWeight={700}>
                   <Box width="50%" pl={50} mb={[6, 6, 0]}>
                     <Container>
                       <Link href='https://maps.google.com'>

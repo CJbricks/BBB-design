@@ -13,6 +13,7 @@ import {
     createIcon,
     IconProps,
     useColorModeValue,
+    Highlight
   } from '@chakra-ui/react'
   import Link from 'next/link'
   
@@ -42,7 +43,9 @@ import {
                   bg: 'red.400',
                   zIndex: -1,
                 }}>
-                Responsive Modern Design,
+                  <Highlight query={'Design'} color={'red.500'}>
+                    Responsive Modern Design and Development,
+                  </Highlight>
               </Text>
               <br />
               <Text as={'span'} color={'red.400'}>
