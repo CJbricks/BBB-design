@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '@/styles/Form.module.css'
-import { SimpleGrid, Text, Box, FormControl, FormLabel, FormHelperText, Input, Button, Highlight } from '@chakra-ui/react'
+import { SimpleGrid, Text, Box, FormControl, FormLabel, FormHelperText, Input, Button, Highlight, Heading } from '@chakra-ui/react'
 import Link from 'next/link'
 import { useState } from 'react'
 
@@ -22,9 +22,15 @@ export default function FormGrid() {
 
   return (
     <>
-    <SimpleGrid columns={[1, 1, 2]} w="100%" align={'center'} justify={'center'} textAlign={'center'} ml={[5, 5, 8]} mr={[5, 5, 8]} mt={10} mb={10}>
+
+    <SimpleGrid columns={[1, 1, 2]} w="100%" align={'center'} justify={'center'} textAlign={'center'} ml={[5, 5, 8]} mr={[5, 5, 8]} mt={8} mb={12}>
+      
         <Box w={['400px', '500px', '710px']} fontWeight={700} fontSize={['14px', '18px', '32px']} p={5} ml={5}>
-          
+          <Heading as={'h2'} size={'2xl'} mb={4} border='2px solid #f2f2f2' p={2} rounded='full' bg={'red.100'}>
+            <Highlight query={'Quote'} style={{ px: '1', py: '1', rounded: 'full', bg: 'red.500', opacity: '85%' }}>
+              Contact us for a Quote
+            </Highlight>
+          </Heading>
         <FormControl>
               <FormLabel>
                 Email Address
@@ -50,7 +56,8 @@ export default function FormGrid() {
                 onChange={(e) => setComment(e.target.value)}
                 />
             </FormControl>
-              <Button colorScheme="red"
+              <Button 
+              colorScheme="red"
               mt={6}
               size="md" 
               variant="outline"
@@ -61,8 +68,7 @@ export default function FormGrid() {
           <Text color={'alphaBlack.1000'} fontWeight={700} fontSize={['18px', '28px', '48px']}>
           <Highlight
             query={['your', 'business', 'ideas']}
-            styles={{ px: '1', py: '1', rounded: 'full', bg: 'red.500', opacity: '85%' }}
-          >
+            styles={{ px: '1', py: '1', rounded: 'full', bg: 'red.500', opacity: '85%' }} >
                 Developing and designing responsive sites, graphics,
                 
                 and applications that fit

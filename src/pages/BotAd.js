@@ -34,7 +34,7 @@ export default function BotAd() {
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
             Automate your <br />
-            <Text as={'span'} color={'red.400'}>
+            <Text as={'span'} color={'red.600'}>
               workflow
             </Text>
           </Heading>
@@ -79,7 +79,7 @@ export default function BotAd() {
                 right={'-125px'}
                 top={'-15px'}
                 transform={'rotate(10deg)'}>
-                Starting at $15/mo
+                Starting at 40/hr for Bot Dev
               </Text>
             </Box>
           </Stack>
