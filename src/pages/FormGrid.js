@@ -27,9 +27,9 @@ export default function FormGrid() {
       
         <Box w={['400px', '500px', '710px']} fontWeight={700} fontSize={['14px', '18px', '32px']} p={5} ml={5}>
           <Heading as={'h2'} size={'2xl'} mb={4} border='2px solid #f2f2f2' p={2} rounded='full' bg={'red.100'}>
-            <Highlight query={'Quote'} style={{ px: '1', py: '1', rounded: 'full', bg: 'red.500', opacity: '85%' }}>
+            
               Contact us for a Quote
-            </Highlight>
+           
           </Heading>
         <FormControl>
               <FormLabel>
@@ -70,9 +70,7 @@ export default function FormGrid() {
             query={['your', 'business', 'ideas']}
             styles={{ px: '1', py: '1', rounded: 'full', bg: 'red.500', opacity: '85%' }} >
                 Developing and designing responsive sites, graphics,
-                
                 and applications that fit
-                
                 your business and ideas.
             </Highlight>
           </Text>

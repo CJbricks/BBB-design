@@ -33,17 +33,8 @@ import {
               <Text
                 as={'span'}
                 position={'relative'}
-                _after={{
-                  content: "''",
-                  width: 'full',
-                  height: '30%',
-                  position: 'absolute',
-                  bottom: 1,
-                  left: 0,
-                  bg: 'red.400',
-                  zIndex: -1,
-                }}>
-                  <Highlight query={'Design'} color={'red.500'}>
+                >
+                  <Highlight query={'design'} styles={{ px: '10', py: '.5', rounded: 'full', bg: 'red.500', opacity: '85%' }}>
                     Responsive Modern Design and Development,
                   </Highlight>
               </Text>
