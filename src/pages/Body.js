@@ -6,6 +6,7 @@ import FormGrid from './FormGrid.js'
 import Loom from './Loom.js'
 import DevSection from './DevSection.js'
 import BotAd from './BotAd.js'
+import Programs from './Programs.js'
 
 export default function Body() {
   return (
@@ -13,6 +14,7 @@ export default function Body() {
       <DevSection />
       <BotAd />
       <FormGrid />
+      <Programs />
       <Loom />
       
     </>
