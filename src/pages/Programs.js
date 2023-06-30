@@ -19,10 +19,10 @@ import {
         border={'1px solid'}
         borderColor={useColorModeValue('gray.800', 'gray.500')}
         rounded={'lg'}>
-        <StatLabel fontWeight={'medium'} isTruncated>
+        <StatLabel fontWeight={'medium'} fontSize={'xl'} isTruncated>
           {title}
         </StatLabel>
-        <StatNumber fontSize={'2xl'} fontWeight={'medium'}>
+        <StatNumber fontSize={'3xl'} fontWeight={'medium'}>
           {stat}
         </StatNumber>
       </Stat>

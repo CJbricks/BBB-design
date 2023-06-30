@@ -9,8 +9,8 @@ export default function FlatMenu() {
     <>
     {/* Heading Text */}
 
-        <Box ml={'25px'} textAlign={'left'}>
-            <Text color={'blackAlpha.1000'} fontSize={['12px', '14px', '18px']}  fontWeight={700}>Brick By Brick</Text>
+        <Box ml={[0, 0, '25px']} textAlign={'left'}>
+            <Text color={'blackAlpha.1000'} fontSize={['18px', '24px', '28px']}  fontWeight={700}>Brick By Brick</Text>
             <Text color={'red.600'}fontSize={['10px', '14px', '18px']} fontWeight={700}>Web Development & Design</Text>
         </Box> 
 
@@ -23,14 +23,7 @@ export default function FlatMenu() {
         
         {/* Flat Menu */}
         
-         <div className={styles.body} id="body">
-                <div className={styles.work}>Work
-                </div>
-                <div className={styles.contact}>Contact
-                </div>
-                <div className={styles.store}>Blog
-                </div>
-        </div>
+         
     </>
   )
 }
