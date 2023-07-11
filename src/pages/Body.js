@@ -7,16 +7,21 @@ import Loom from './Loom.js'
 import DevSection from './DevSection.js'
 import BotAd from './BotAd.js'
 import Programs from './Programs.js'
+import Navbar from './Navbar.js'
+import Header from './Header.js'
+import Footer from './Footer.js'
 
 export default function Body() {
   return (
     <>
+    <Navbar />
+    <Header />
       <DevSection />
+      {/* Carousel with web pages */}
       <BotAd />
-      <FormGrid />
-      <Programs />
       <Loom />
-      
+      <Programs />
+    <Footer />
     </>
   )
 }

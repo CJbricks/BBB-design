@@ -35,7 +35,7 @@ import {
                 position={'relative'}
                 >
                   <Highlight query={'design'} styles={{ px: '10', py: '.5', rounded: 'full', bg: 'red.500', opacity: '85%' }}>
-                    Responsive Modern Design and Development,
+                    Responsive Modern Design and Development
                   </Highlight>
               </Text>
               <br />
@@ -67,7 +67,7 @@ import {
                   fontWeight={'normal'}
                   px={6}
                   >
-                  Email Us
+                  Email Us 
                 </Button>
               </Link>
             </Stack>
@@ -79,21 +79,24 @@ import {
             position={'relative'}
             w={'full'}>
             <Blob
-              w={'150%'}
+              w={'110%'}
               h={'150%'}
               position={'absolute'}
               top={'-20%'}
               left={0}
               zIndex={-1}
-              color={useColorModeValue('red.200', 'red.500')}
+              color={useColorModeValue('red.400', 'red.400')}
             />
+            {/* Unused attributes
+              rounded={'2xl'}
+              boxShadow={'2xl'} */}
             <Box
               position={'relative'}
-              height={'320px'}
-              rounded={'2xl'}
-              boxShadow={'2xl'}
+              height={'full'}
+              
               width={'full'}
-              overflow={'hidden'}>
+              overflow={'hidden'}
+              >
             
               <Image
                 alt={'Hero Image'}
@@ -101,8 +104,7 @@ import {
                 align={'center'}
                 w={'100%'}
                 h={'100%'}
-                src={
-                  'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80'
+                src={'/Images/bbb-logo.png'
                 }
               />
             </Box>

@@ -2,23 +2,24 @@ import React from 'react'
 import FlatMenu from './FlatMenu.js'
 import { Image, Text, Box, SimpleGrid, Spacer, Center, Container } from '@chakra-ui/react'
 
-export default function () {
+export default function Header() {
   return (
     <>
-      <header>
-        <SimpleGrid columns={[1, 1, 2]} justifyContent={'center'} alignItems={'center'} bg={"f2f2f2"}>
-            <Box bg={'red.500'} opacity={2} width={['full', '50%', '50%']} boxSize={['200px', '300px', '800px']} overflow={'hidden'}>
-                    <Image src='/images/bbb-logo.png'
-                     alt="header-image-logo" />
-            </Box>
 
-            <Box mr={5} width={['100%', '50%', '50%']} boxSize={['240px', '300px', '800px']}  pt={'250px'}>
-                <Container bg={'whiteAlpha.100'}>
-                    <FlatMenu />
-                </Container>
-            </Box>
-        </SimpleGrid>
-      </header>
+      <Box
+            height={'full'}
+            width={'full'}
+            align={'center'}
+            justify={'center'}
+            backgroundPosition="center"
+            backgroundRepeat="no-repeat"
+            backgroundSize="cover"
+            bg={'red.500'}
+            p={10}
+            >
+
+            <Image src='/Images/bbb-head-logo.png' alt="BBB-logo-banner-image" />
+        </Box>
     </>
   )
 }

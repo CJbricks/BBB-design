@@ -28,17 +28,14 @@ export default function BotAd() {
           as={Box}
           textAlign={'center'}
           spacing={{ base: 8, md: 14 }}
-          py={{ base: 20, md: 36 }}>
+          py={{ base: 20, md: 5 }}>
           <Heading
-            fontWeight={600}
+            color={'red.600'}
             fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
             lineHeight={'110%'}>
-            Automate your <br />
-            <Text as={'span'} color={'red.600'}>
-              workflow
-            </Text>
+            Automate your workflow
           </Heading>
-          <Text color={'gray.500'}>
+          <Text color={'gray.600'}>
             Charge your customer service or content platform using
             AI created with Botpress and deployed directly to your page, app, site, or machine!
           </Text>
@@ -59,18 +56,27 @@ export default function BotAd() {
               Get Started
             </Button>
             <Link href="https://mediafiles.botpress.cloud/6adda225-9751-4969-be00-30b5847e64f0/webchat/bot.html" target="_blank">
-              <Button variant={'outline'} colorScheme={'red'} size={'sm'} >
+              <Button variant={'outline'}
+               rounded={'full'}
+               colorScheme={'red'}
+               size={'sm'}
+               px={8}
+               _hover={{
+                bg: 'red.400',
+                color: 'white'
+              }}
+               >
                 Demo Bot
               </Button>
             </Link>
             <Box>
               <Icon
                 as={Arrow}
-                color={useColorModeValue('gray.800', 'gray.300')}
+                color={useColorModeValue('gray.800', 'gray.800')}
                 w={71}
                 position={'absolute'}
-                right={-71}
-                top={'10px'}
+                right={-70}
+                top={'15px'}
               />
               <Text
                 fontSize={'lg'}
