@@ -11,6 +11,7 @@ import Navbar from './Navbar.js'
 import Header from './Header.js'
 import Footer from './Footer.js'
 import GalleryMain from './GalleryMain.js'
+import Contact from './Contact.js'
 
 export default function Body() {
   return (
@@ -19,10 +20,7 @@ export default function Body() {
     <Header />
       <DevSection />
       {/* Carousel with web pages */}
-      <Programs />
-      <BotAd />
-      <GalleryMain />
-      <Loom />
+      <Contact />
     <Footer />
     </>
   )
