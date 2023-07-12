@@ -23,7 +23,7 @@ export default function BotAd() {
         />
       </Head>
 
-      <Container maxW={'3xl'}>
+      <Container maxW={'3xl'} mt={'150px'} mb={'150px'}>
         <Stack
           as={Box}
           textAlign={'center'}
@@ -46,7 +46,7 @@ export default function BotAd() {
             alignSelf={'center'}
             position={'relative'}>
             <Button
-              colorScheme={'green'}
+              colorScheme={'red'}
               bg={'red.400'}
               rounded={'full'}
               px={6}

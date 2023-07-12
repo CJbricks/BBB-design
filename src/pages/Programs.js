@@ -6,6 +6,8 @@ import {
     Stat,
     StatLabel,
     StatNumber,
+    StatHelpText,
+    StatArrow,
     useColorModeValue,
     Heading,
     Highlight
@@ -44,9 +46,33 @@ import {
             </Highlight>
         </Heading>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
-          <StatsCard title={'Web Development'} stat={'Responsive modern website and custom web pages that actually work! More than just a visual experience a fully immersive location on the web.'} />
+        <Stat>
+          <StatLabel >Development</StatLabel>
+            <StatNumber>Responsive modern website and custom web pages that actually work optimize traffic and convert.</StatNumber>
+              <StatHelpText>
+                <StatArrow type='increase' />
+                Increase site conversion
+              </StatHelpText>
+        </Stat>
+        <Stat>
+          <StatLabel as="h2"> Web Design</StatLabel>
+            <StatNumber>We will work with you to develop and design your own style across your products. Powered by modern libraries and frameworks.</StatNumber>
+              <StatHelpText>
+                <StatArrow type='decrease' />
+                Minimize confusion and streamline your sites
+              </StatHelpText>
+        </Stat>
+        <Stat>
+          <StatLabel as="h2">Graphic Design</StatLabel>
+            <StatNumber>Custom graphics, fonts, logo's, and typefaces designed by hand accounting for your specific needs.</StatNumber>
+              <StatHelpText>
+                <StatArrow type='increase' />
+                Make your space stand out online
+              </StatHelpText>
+        </Stat>
+         {/* <StatsCard title={'Web Development'} stat={'Responsive modern website and custom web pages that actually work! More than just a visual experience a fully immersive location on the web.'} />
           <StatsCard title={'Web Design'} stat={'We will work with you to develop and design your own style across your products. Powered by modern libraries and frameworks.'} />
-          <StatsCard title={'Graphic Design'} stat={'Custom graphics, fonts, and typefaces designed by hand and powered by Adobe tools.'} />
+    <StatsCard title={'Graphic Design'} stat={'Custom graphics, fonts, and typefaces designed by hand and powered by Adobe tools.'} /> */}
         </SimpleGrid>
       </Box>
     );

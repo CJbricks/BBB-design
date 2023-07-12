@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from '@/styles/Form.module.css'
 import { SimpleGrid, Text, Box, FormControl, FormLabel, FormHelperText, Input, Button, Highlight, Heading } from '@chakra-ui/react'
 import Link from 'next/link'
 import { useState } from 'react'
