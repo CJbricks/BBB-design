@@ -104,7 +104,7 @@ import {
                 align={'center'}
                 w={'100%'}
                 h={'100%'}
-                src={'/Images/bbb-logo.png'
+                src={'/images/bbb-logo.png'
                 }
               />
             </Box>

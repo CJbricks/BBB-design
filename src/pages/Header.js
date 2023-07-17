@@ -18,7 +18,7 @@ export default function Header() {
             p={10}
             >
 
-            <Image src='/Images/bbb-head-logo.png' alt="BBB-logo-banner-image" />
+            <Image src='/images/bbb-head-logo.png' alt="BBB-logo-banner-image" />
         </Box>
     </>
   )

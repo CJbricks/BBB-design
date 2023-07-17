@@ -42,7 +42,7 @@ export default function Navbar() {
           <HStack spacing={8} alignItems={'center'}>
             <Box p={[0, 0, 4]}>
               <Image 
-                src='/Images/nav-logo.png' 
+                src='/images/nav-logo.png' 
                 alt='mg-body-mod-logo-small'
                 width={20}
                 height={20}
@@ -76,7 +76,7 @@ export default function Navbar() {
                  bg: useColorModeValue('red.400', 'red.500'),
                }}>Services</Link>
               <Link 
-                href='#'
+                href='/GalleryMain'
                 px={2}
                 py={1}
                 rounded={'full'}
@@ -162,7 +162,7 @@ export default function Navbar() {
                  bg: useColorModeValue('gray.400', 'gray.500'),
                }}>Services</Link>
               <Link 
-                href='#'
+                href='/GalleryMain'
                 px={2}
                 py={1}
                 rounded={'full'}

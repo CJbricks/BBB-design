@@ -46,22 +46,34 @@ import {
             align={'center'}
             position={'relative'}
             w={'full'}>
-            <Blob
-              w={'100%'}
+               <Blob
+              w={'90%'}
               h={'150%'}
               position={'absolute'}
               top={'-20%'}
               left={0}
               zIndex={-1}
+              opacity={'80%'}
+              color={useColorModeValue('red.400', 'red.300')}
+            />
+            <Blob
+              w={'80%'}
+              h={'120%'}
+              position={'absolute'}
+              top={'-25%'}
+              left={0}
+              zIndex={-1}
+              
               color={useColorModeValue('gray.300', 'gray.300')}
             />
+            
             {/* Unused attributes
               rounded={'2xl'}
               boxShadow={'2xl'} */}
             <Box
               position={'relative'}
               height={'full'}
-              
+              p={8}
               width={'full'}
               overflow={'hidden'}
               >
@@ -72,7 +84,7 @@ import {
                 align={'center'}
                 w={'100%'}
                 h={'100%'}
-                src={'/Images/nav-logo.png'
+                src={'/images/nav-logo.png'
                 }
               />
             </Box>

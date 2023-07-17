@@ -19,7 +19,7 @@ import { FaInstagram, FaTwitter, FaYoutube, FaGoogle, FaLaptop, FaFacebook } fro
 const Logo = (props, any) => {
   return (
     <Image 
-    src='/Images/bbb-head-logo.png'
+    src='/images/bbb-head-logo.png'
     alt='bricks-logo-small'
     width={40}
     height={40}
@@ -91,13 +91,13 @@ export default function Footer() {
               <SocialButton label={'Facebook'} href={'#'}>
                 <FaFacebook />
               </SocialButton>
-              <SocialButton label={'Instagram'} href={'#'}>
+              <SocialButton label={'Instagram'} href={'https://instagram.com/oreo.blizman'}>
                 <FaInstagram />
               </SocialButton>
               <SocialButton label={'Google'} href={'https://google.com/'}>
                 <FaGoogle />
               </SocialButton>
-              <SocialButton label={'Email'} href={'#'}>
+              <SocialButton label={'Email'} href={'mailto:cj.christian.web@gmail.com'}>
                 <FaLaptop />
               </SocialButton>
               
@@ -105,16 +105,16 @@ export default function Footer() {
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
-            <Link href={'/Biography'}>About</Link>
-            <Link href={'#'} target='_blank'>Contact</Link>
-            <Link href={'/Programs'}>Services</Link>
-            <Link href={'#'}>Gallery</Link>
+            <Link href={'#'}>About</Link>
+            <Link href={'/ContactPage'}>Contact</Link>
+            <Link href={'/Services'}>Services</Link>
+            <Link href={'https://www.cjchristian.com'}>Gallery</Link>
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Support</ListHeader>
-            <Link href={'#'} target='_blank'>Help Center</Link>
-            <Link href={'/Programs'}>Resources</Link>
-            <Link href={'#'}>Waiver</Link>
+            <Link href={'mailto:cj.christian.web@gmail.com'} target='_blank'>Help Center</Link>
+            <Link href={'/Services'}>Resources</Link>
+            <Link href={'/GalleryMain'}>Gallery</Link>
             <Link href={'#'}></Link>
           </Stack>
       

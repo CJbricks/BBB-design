@@ -32,7 +32,7 @@ export default function Carousel() {
 
   // These are the breakpoints which changes the position of the
   // buttons as the screen size changes
-  const top = useBreakpointValue({ base: '70%', md: '0%' });
+  const top = useBreakpointValue({ base: '70%', md: '50%' });
   const side = useBreakpointValue({ base: '2%', md: '40px' });
 
   // This list contains all the data for carousels
@@ -122,7 +122,7 @@ export default function Carousel() {
             backgroundSize="cover"
             
             >
-            <Image src='/images/christopher-gower-m_HRfLhgABo-unsplash.jpeg' alt="reed-shepard-unsplash-image" position='absolute' zIndex='-1' />
+            <Image src='/images/christopher-gower-m_HRfLhgABo-unsplash.jpeg' alt="unsplash-stock-image" position='absolute' zIndex='-1' />
             
             {/* This is the block you need to change, to customize the caption */}
             <Container size="container.lg" height="600px" position="relative" textAlign={['left', 'center']}>

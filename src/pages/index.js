@@ -1,21 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
-import DirectoryPage from './DirectoryPage.js'
-import Header from './Header.js'
 import Body from './Body.js'
-import Footer from './Footer.js'
-import { Roboto, Noto_Sans_JP } from 'next/font/google'
-
-export const roboto = Roboto({ 
-  subsets: ['latin'],
-  weight: ['400', '700'] })
-
-export const notoSansJp = Noto_Sans_JP({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  preload: false,
-})
 
 export default function Home() {
   return (
