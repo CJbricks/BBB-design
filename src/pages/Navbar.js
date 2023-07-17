@@ -1,4 +1,4 @@
-import {React, ReactNode} from 'react'
+import { React } from 'react'
 import {
   Box,
   Flex,
@@ -67,7 +67,7 @@ export default function Navbar() {
                    bg: useColorModeValue('red.400', 'red.500'),
                  }}>Home</Link>
               <Link 
-              href='#'
+              href='/Services'
                px={2}
                py={1}
                rounded={'full'}
@@ -85,7 +85,7 @@ export default function Navbar() {
                   bg: useColorModeValue('red.400', 'red.500'),
                 }}>Gallery</Link>
                  <Link 
-                href='#'
+                href='/LinkPage'
                 px={2}
                 py={1}
                 rounded={'full'}
@@ -99,8 +99,8 @@ export default function Navbar() {
           </HStack>
           <Flex alignItems={'center'}>
            
-            {/* Jotform link */}
-              <Link href='#' target='_blank'>
+            {/* Quotelink 
+              <Link href='/LinkPage' target='_blank'>
                 <Button
                   variant={'outline'}
                   colorScheme={'red'}
@@ -111,7 +111,9 @@ export default function Navbar() {
                   Quote
                 </Button>
               </Link>
-              <Link href='#' target='_blank'>
+            */}
+
+              <Link href='mailto:cj.christian.web@gmail.com' target='_blank'>
                 <Button
                   variant={'outline'}
                   colorScheme={'red'}
@@ -141,7 +143,7 @@ export default function Navbar() {
                  }}>Home</Link>
 
             <Link 
-                    href='#'
+                    href='/LinkPage'
                     px={2}
                     py={1}
                     rounded={'full'}
@@ -151,7 +153,7 @@ export default function Navbar() {
                    bg: useColorModeValue('gray.400', 'gray.500'),
                  }}>Contact</Link>
             <Link 
-              href='#'
+              href='/Services'
                px={2}
                py={1}
                rounded={'full'}

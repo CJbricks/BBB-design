@@ -22,6 +22,7 @@ export default function BotAd() {
           rel="stylesheet"
         />
       </Head>
+      
 
       <Container maxW={'3xl'} mt={'150px'} mb={'150px'}>
         <Stack
