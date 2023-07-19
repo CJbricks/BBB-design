@@ -45,7 +45,8 @@ import {
             justify={'center'}
             align={'center'}
             position={'relative'}
-            w={'full'}>
+            w={'90%'}
+            height={'90%'}>
                <Blob
               w={'90%'}
               h={'150%'}
@@ -82,7 +83,7 @@ import {
                 alt={'Hero Image'}
                 fit={'cover'}
                 align={'center'}
-                w={'100%'}
+                w={'85%'}
                 h={'100%'}
                 src={'/images/nav-logo.png'
                 }
@@ -95,8 +96,8 @@ import {
             bg="red.500"
             color="white"
             borderRadius="lg"
-            m={{ sm: 4, md: 16, lg: 10 }}
-            p={{ sm: 5, md: 5, lg: 16 }}>
+            m={{ sm: 4, md: 16, lg: 8 }}
+            p={{ sm: 5, md: 5, lg: 14 }}>
             <Box p={4}>
               <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
                 <WrapItem>

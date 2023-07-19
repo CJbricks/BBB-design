@@ -44,12 +44,16 @@ import {
               </Text>
             </Heading>
             <Text color={'gray.500'}>
-              Check out our Github and run the sample projects on your machine! Shoot us a message for a quote or any inquiry you may 
-              have about a project or application you have!
+              Check out our Github and run the sample projects on your machine (or see links in footer)!
+            </Text>
+            <Text color={'gray.500'}>
+              Shoot us a message for a quote or any 
+              inquiry about starting a project project or application with us.
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: 'column', sm: 'row' }}>
+              <Link href='/ContactPage'>
               <Button
                 rounded={'full'}
                 size={'lg'}
@@ -60,6 +64,7 @@ import {
                 _hover={{ bg: 'red.500' }}>
                 Get A Quote!
               </Button>
+              </Link>
               <Link href="mailto:cj.christian.web@gmail.com" target="_blank">
                 <Button
                   rounded={'full'}

@@ -41,27 +41,35 @@ export default function Carousel() {
     {
       title: 'Web Development',
       text:
-        ""
+        "",
+      image: 'https://live.staticflickr.com/65535/53056638447_2484b29e83_k.jpg'
       
     },
     {
       title: 'Web Design',
       text:
-        ""
+        "",
+      image: 'https://live.staticflickr.com/65535/53056638447_2484b29e83_k.jpg'
       
     },
     {
       title: 'Graphic Design',
       text:
-        ""
+        "",
+      image: 'https://live.staticflickr.com/65535/53057610965_459b2d739b_k.jpg'
       
     },
     {
         title: 'UI Design',
         text:
-          ""
-        
+          "",
+        image: ''
       },
+      {
+        title: 'Logo Design',
+        text: '',
+        image: ''
+      }
   ];
 
   return (
@@ -120,10 +128,12 @@ export default function Carousel() {
             backgroundPosition="center"
             backgroundRepeat="no-repeat"
             backgroundSize="cover"
+           /* backgroundImage={`url(${card.image})`}  */
+           >
             
-            >
+            
             <Image src='/images/christopher-gower-m_HRfLhgABo-unsplash.jpeg' alt="unsplash-stock-image" position='absolute' zIndex='-1' />
-            
+       
             {/* This is the block you need to change, to customize the caption */}
             <Container size="container.lg" height="600px" position="relative" textAlign={['left', 'center']}>
               <Stack
