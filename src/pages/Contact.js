@@ -1,4 +1,5 @@
 import { React, useState } from 'react'
+import axios from 'axios'
 import {
     Container,
     Flex,
@@ -36,8 +37,31 @@ import {
     const [name, setName] = useState('')
     const [message, setMessage] = useState('')
 
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        const contactObj = {
+          name,
+          email, 
+          message
+        }
+        console.log(contactObj);
+
+        // send data over server
+        try {
+          const { data } = await axios({
+            url: "./api/addcontact",
+            method: "POST",
+            data: contactObj
+          })
+          console.log("Worked", data)
+        } catch (error) {
+          console.log(error)
+        }
+
+    }
+
     return (
-      <Container bg={''} maxW="full" mt={0} centerContent overflow="hidden">
+      <Container bg={''} maxW="full" mt={4} centerContent overflow="hidden">
         <Flex>
           {/* Second Blob Image */}
           <Flex
@@ -183,7 +207,10 @@ import {
                               pointerEvents="none"
                               children={<BsPerson color="gray.800" />}
                             />
-                            <Input type="text" size="md" />
+                            <Input type="text" size="md"
+                            onChange={(e) => {
+                              setName(e.target.value)
+                            }} />
                           </InputGroup>
                         </FormControl>
                         <FormControl id="name">
@@ -193,7 +220,10 @@ import {
                               pointerEvents="none"
                               children={<MdOutlineEmail color="gray.800" />}
                             />
-                            <Input type="text" size="md" />
+                            <Input type="text" size="md"
+                            onChange={(e) => {
+                              setEmail(e.target.value)
+                            }} />
                           </InputGroup>
                         </FormControl>
                         <FormControl id="name">
@@ -204,6 +234,9 @@ import {
                               borderRadius: 'gray.300',
                             }}
                             placeholder="message"
+                            onChange={(e) => {
+                              setMessage(e.target.value)
+                            }}
                           />
                         </FormControl>
                         <FormControl id="name" float="right">
@@ -211,7 +244,8 @@ import {
                             variant="solid"
                             bg="#0D74FF"
                             color="white"
-                            _hover={{}}>
+                            _hover={{}}
+                            onClick={handleSubmit}>
                             Send
                           </Button>
                         </FormControl>

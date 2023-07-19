@@ -1,4 +1,5 @@
 import { React, useState} from 'react'
+import axios from 'axios'
 import {
   Box,
   chakra,
@@ -66,7 +67,25 @@ const ListHeader = ({ children }) => {
 
 export default function Footer() {
   const [email, setEmail] = useState('')
-  console.log("Email:", email)
+
+  const handleSubmit = async (event) => {
+      event.preventDefault();
+      const emailAddress = {
+        email
+      }
+      // send data over server
+      try {
+        const { data } = await axios({
+          url: "./api/addemail",
+          method: "POST",
+          data: emailAddress
+        })
+        console.log("Worked", data)
+      } catch (error) {
+        console.log(error)
+      }
+
+  }
   
   return (
     <Box
@@ -140,6 +159,7 @@ export default function Footer() {
                 }}
                 aria-label="Subscribe"
                 icon={<BiMailSend />}
+                onClick={handleSubmit}
               />
               
             </Stack>
