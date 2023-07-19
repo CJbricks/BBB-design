@@ -15,7 +15,7 @@ import {
   Image
 } from '@chakra-ui/react';
 import { BiMailSend } from 'react-icons/bi';
-import { FaInstagram, FaTwitter, FaYoutube, FaGoogle, FaLaptop, FaFacebook } from 'react-icons/fa';
+import { FaInstagram, FaTwitter, FaYoutube, FaGoogle, FaLaptop, FaGithub, FaFlickr } from 'react-icons/fa';
 
 const Logo = (props, any) => {
   return (
@@ -59,7 +59,7 @@ const SocialButton = ({
 
 const ListHeader = ({ children }) => {
   return (
-    <Text fontWeight={'500'} fontSize={'lg'} mb={2}>
+    <Text fontWeight={'500'} fontSize={'lg'} mb={2} color={'red.600'}>
       {children}
     </Text>
   );
@@ -90,12 +90,12 @@ export default function Footer() {
   return (
     <Box
       bg={useColorModeValue('gray.100', 'gray.100')}
-      color={useColorModeValue('gray.700', 'gray.200')}>
+      color={useColorModeValue('gray.700', 'gray.700')}>
       <Container as={Stack} maxW={'6xl'} py={10}>
         <SimpleGrid
-          templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 2fr' }}
-          spacing={8}>
-          <Stack spacing={6}>
+          templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 1fr 2fr' }}
+          spacing={4}>
+          <Stack spacing={8}>
             <Box>
               <Logo color={useColorModeValue('gray.700', 'white')} />
             </Box>
@@ -107,14 +107,14 @@ export default function Footer() {
               Powered by Chakra UI
             </Text>
             <Stack direction={'row'} spacing={6}>
-              <SocialButton label={'Facebook'} href={'#'}>
-                <FaFacebook />
+              <SocialButton label={'Github'} href={'https://github.com/cjbricks'}>
+                <FaGithub />
               </SocialButton>
               <SocialButton label={'Instagram'} href={'https://instagram.com/oreo.blizman'}>
                 <FaInstagram />
               </SocialButton>
-              <SocialButton label={'Google'} href={'https://google.com/'}>
-                <FaGoogle />
+              <SocialButton label={'Flickr'} href={'https://flickr.com/photos/198751376@N08/'}>
+                <FaFlickr />
               </SocialButton>
               <SocialButton label={'Email'} href={'mailto:cj.christian.web@gmail.com'}>
                 <FaLaptop />
@@ -124,17 +124,24 @@ export default function Footer() {
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
-            <Link href={'#'}>About</Link>
+            <Link href={'https://www.cjchristian.com/about-1'} target="_blank">About</Link>
             <Link href={'/ContactPage'}>Contact</Link>
             <Link href={'/Services'}>Services</Link>
-            <Link href={'https://www.cjchristian.com'}>Gallery</Link>
+            
           </Stack>
           <Stack align={'flex-start'}>
             <ListHeader>Support</ListHeader>
             <Link href={'mailto:cj.christian.web@gmail.com'} target='_blank'>Help Center</Link>
             <Link href={'/Services'}>Resources</Link>
             <Link href={'/GalleryMain'}>Gallery</Link>
-            <Link href={'#'}></Link>
+            <Link href={'mailto:cj.christian.web@gmail.com'}>Commission Work</Link>
+          </Stack>
+          <Stack align={'flex-start'}>
+            <ListHeader>Related Sites</ListHeader>
+            <Link href={'https://www.cjchristian.com'} target='_blank'>Fine Art</Link>
+            <Link href={'https:/daybreak-beta.vercel.app'} target='_blank'>Daybreak Print</Link>
+            <Link href={'https://flickr.com/photos/198751376@N08/'} target="_blank">Photo Stream</Link>
+            <Link href={'#'}>Fine Art CV</Link>
           </Stack>
       
           <Stack align={'flex-start'}>

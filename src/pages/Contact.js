@@ -20,7 +20,8 @@ import {
     Textarea,
     useColorModeValue,
     Icon,
-    Image
+    Image,
+    Hide
   } from '@chakra-ui/react';
   import {
     MdPhone,
@@ -30,6 +31,7 @@ import {
     MdOutlineEmail,
   } from 'react-icons/md';
   import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
+  import styles from '@/styles/Menu.module.css'
   
   export default function contact() {
 
@@ -62,59 +64,63 @@ import {
 
     return (
       <Container bg={''} maxW="full" mt={4} centerContent overflow="hidden">
-        <Flex>
-          {/* Second Blob Image */}
-          <Flex
-            flex={1}
-            justify={'center'}
-            align={'center'}
-            position={'relative'}
-            w={'90%'}
-            height={'90%'}>
-               <Blob
-              w={'90%'}
-              h={'150%'}
-              position={'absolute'}
-              top={'-20%'}
-              left={0}
-              zIndex={-1}
-              opacity={'80%'}
-              color={useColorModeValue('red.400', 'red.300')}
-            />
-            <Blob
-              w={'80%'}
-              h={'120%'}
-              position={'absolute'}
-              top={'-25%'}
-              left={0}
-              zIndex={-1}
-              
-              color={useColorModeValue('gray.300', 'gray.300')}
-            />
-            
-            {/* Unused attributes
-              rounded={'2xl'}
-              boxShadow={'2xl'} */}
-            <Box
+        
+          <Flex>
+          
+            {/* Second Blob Image */}
+            <Flex
+              flex={1}
+              justify={'center'}
+              align={'center'}
               position={'relative'}
-              height={'full'}
-              p={8}
-              width={'full'}
-              overflow={'hidden'}
-              >
-            
-              <Image
-                alt={'Hero Image'}
-                fit={'cover'}
-                align={'center'}
-                w={'85%'}
-                h={'100%'}
-                src={'/images/nav-logo.png'
-                }
+              w={'90%'}
+              height={'90%'}>
+              <Hide below='md'>
+                <Blob
+                w={'90%'}
+                h={'150%'}
+                position={'absolute'}
+                top={'-20%'}
+                left={0}
+                zIndex={-1}
+                opacity={'80%'}
+                color={useColorModeValue('red.400', 'red.300')}
               />
-            </Box>
-          </Flex>
-
+              <Blob
+                w={'80%'}
+                h={'120%'}
+                position={'absolute'}
+                top={'-25%'}
+                left={0}
+                zIndex={-1}
+                
+                color={useColorModeValue('gray.300', 'gray.300')}
+              />
+              
+              {/* Unused attributes
+                rounded={'2xl'}
+                boxShadow={'2xl'} */}
+              <Box
+                position={'relative'}
+                height={'full'}
+                p={8}
+                width={'full'}
+                overflow={'hidden'}
+                >
+              
+                <Image
+                  alt={'Hero Image'}
+                  fit={'cover'}
+                  align={'center'}
+                  w={'85%'}
+                  h={'100%'}
+                  src={'/images/nav-logo.png'
+                  }
+                />
+              </Box>
+              </Hide>
+            </Flex>
+        
          {/* Contact form */}       
           <Box
             bg="red.500"
