@@ -34,8 +34,8 @@ import {
                 as={'span'}
                 position={'relative'}
                 >
-                  <Highlight query={'design'} styles={{ px: '5', py: '.5', rounded: 'full', bg: 'red.500', opacity: '85%' }}>
-                    Responsive Modern Design and Development
+                  <Highlight query={''} styles={{ px: '5', py: '.5', rounded: 'full', bg: 'red.500', opacity: '85%' }}>
+                  Modern Web Design and Software Development
                   </Highlight>
               </Text>
               <br />
@@ -44,11 +44,7 @@ import {
               </Text>
             </Heading>
             <Text color={'gray.500'}>
-              Check out our Github and run the sample projects on your machine (or see links in footer)!
-            </Text>
-            <Text color={'gray.500'}>
-              Shoot us a message for a quote or any 
-              inquiry about starting a project project or application with us.
+              Check out our Github and run the sample projects on your machine or shoot us a message wuth an inquiry about your project
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}

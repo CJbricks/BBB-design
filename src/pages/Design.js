@@ -83,7 +83,7 @@ import {
               </Text>
               <br />
               <Text as={'span'} color={'red.400'}>
-                Custom merchandise, web pages, books, and more.
+                Custom merchandise, web pages, books, logos, and more.
               </Text>
             </Heading>
             <Text color={'gray.500'}>

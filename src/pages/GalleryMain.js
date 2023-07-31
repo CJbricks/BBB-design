@@ -13,6 +13,8 @@ import stocks from '../../public/images/stocks.jpg'
 import trash from '../../public/images/trashman.jpg'
 import Navbar from './Navbar.js'
 import Footer from './Footer.js'
+import Carousel from './Carousel.js'
+import Loom from './Loom.js'
 
 
 export default function GalleryMain() {
@@ -20,6 +22,9 @@ export default function GalleryMain() {
   return (
     <>
     <Navbar />
+    <Carousel />
+    {/* Some images from Daybreak Design Book */}
+
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }} >
           <Flex flex={1} wrap={'wrap'} align={'center'} justify={'center'} width={'full'} height={'full'} m={2}>
               { imageArr.map((image) => (
@@ -46,10 +51,11 @@ export default function GalleryMain() {
                 _hover={{
                   bg: 'red.500',
                 }}>
-                See More
+                Visit Daybreak Books
               </Button>
             </Link>
       </Stack>
+      <Loom />
     <Footer />
     </>
   )

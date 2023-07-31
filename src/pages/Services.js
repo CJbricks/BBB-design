@@ -12,7 +12,6 @@ export default function Services() {
     <Navbar />
         <Programs />
         <BotAd />
-        <Loom />
     <Footer />
     
     </>
