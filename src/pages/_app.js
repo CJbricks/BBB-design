@@ -1,6 +1,6 @@
 import '@/styles/globals.css';
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
-import '@fontsource/lobster/400.css';
+import '@fontsource/fira-sans/400.css';
 import '@fontsource/open-sans/400.css';
 
 
@@ -15,8 +15,8 @@ export default function App({ Component, pageProps }) {
   }
 
   const fonts = {
-      heading: `'Lobster', sans-serif`,
-      body: `'open-sans', sans-serif `,
+      heading: `'Fira Sans', sans-serif`,
+      body: `'Open Sans', sans-serif `,
 
   }
 

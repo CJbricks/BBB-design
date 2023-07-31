@@ -12,6 +12,7 @@
     "@chakra-ui/react": "^2.7.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
+    "@fontsource/fira-sans": "^5.0.5",
     "@fontsource/lobster": "^5.0.5",
     "@fontsource/open-sans": "^5.0.5",
     "@iconify/icons-bi": "^1.2.17",
