@@ -1,6 +1,6 @@
 import '@/styles/globals.css';
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
-import '@fontsource/fira-sans/400.css';
+import '@fontsource/archivo-black/400.css';
 import '@fontsource/open-sans/400.css';
 
 
@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
   }
 
   const fonts = {
-      heading: `'Fira Sans', sans-serif`,
+      heading: `'Archivo Black', sans-serif`,
       body: `'Open Sans', sans-serif `,
 
   }

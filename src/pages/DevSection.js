@@ -34,7 +34,7 @@ import {
                 as={'span'}
                 position={'relative'}
                 >
-                  <Highlight query={'design'} styles={{ px: '10', py: '.5', rounded: 'full', bg: 'red.500', opacity: '85%' }}>
+                  <Highlight query={'design'} styles={{ px: '5', py: '.5', rounded: 'full', bg: 'red.500', opacity: '85%' }}>
                     Responsive Modern Design and Development
                   </Highlight>
               </Text>
@@ -57,9 +57,8 @@ import {
               <Button
                 rounded={'full'}
                 size={'lg'}
-                fontWeight={'normal'}
+                fontWeight={700}
                 px={6}
-                colorScheme={'red'}
                 bg={'red.400'}
                 _hover={{ bg: 'red.500' }}>
                 Get A Quote!

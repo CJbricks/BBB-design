@@ -5,6 +5,7 @@ import Header from './Header.js'
 import Footer from './Footer.js'
 import Contact from './Contact.js'
 import Carousel from './Carousel.js'
+import Design from './Design.js'
 
 export default function Body() {
   return (
@@ -12,6 +13,7 @@ export default function Body() {
     <Navbar />
     <Header />
       <DevSection />
+      <Design />
       {/* Carousel with web pages */}
       <Carousel />
       <Contact />
