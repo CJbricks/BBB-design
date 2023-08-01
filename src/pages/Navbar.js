@@ -64,7 +64,7 @@ export default function Navbar() {
                     _hover={{
                    textDecoration: 'none',
                    
-                   bg: useColorModeValue('red.400', 'red.500'),
+                   bg: 'brand.900',
                  }}>Home</Link>
               <Link 
               href='/Services'
@@ -73,7 +73,7 @@ export default function Navbar() {
                rounded={'full'}
                _hover={{
                  textDecoration: 'none',
-                 bg: useColorModeValue('red.400', 'red.500'),
+                 bg: 'brand.900',
                }}>Services</Link>
               <Link 
                 href='/GalleryMain'
@@ -82,7 +82,7 @@ export default function Navbar() {
                 rounded={'full'}
                 _hover={{
                   textDecoration: 'none',
-                  bg: useColorModeValue('red.400', 'red.500'),
+                  bg: 'brand.900',
                 }}>Gallery</Link>
                  <Link 
                 href='/LinkPage'
@@ -91,7 +91,7 @@ export default function Navbar() {
                 rounded={'full'}
                 _hover={{
                   textDecoration: 'none',
-                  bg: useColorModeValue('red.400', 'red.500'),
+                  bg: 'brand.900',
                 }}>Contact</Link>
                 
                 
@@ -116,10 +116,10 @@ export default function Navbar() {
               <Link href='mailto:cj.christian.web@gmail.com' target='_blank'>
                 <Button
                   variant={'outline'}
-                  colorScheme={'red'}
+                  colorScheme='red'
                   size={'sm'}
                   mr={4}
-                  _hover={{ bg: 'red.200', color: 'white' }}
+                  _hover={{ bg: 'brand.900', color: 'white' }}
                   >
                   Contact Us
                 </Button>

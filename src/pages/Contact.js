@@ -63,7 +63,7 @@ import {
     }
 
     return (
-      <Container bg={''} maxW="full" mt={4} centerContent overflow="hidden">
+      <Container bg={''} maxW="full" m={6} p={4} centerContent overflow="hidden">
         
           <Flex>
           
@@ -84,7 +84,7 @@ import {
                 left={0}
                 zIndex={-1}
                 opacity={'80%'}
-                color={useColorModeValue('red.400', 'red.300')}
+                color={'brand.900'}
               />
               <Blob
                 w={'80%'}
@@ -94,7 +94,7 @@ import {
                 left={0}
                 zIndex={-1}
                 
-                color={useColorModeValue('gray.300', 'gray.300')}
+                color={'brand.600'}
               />
               
               {/* Unused attributes
@@ -123,7 +123,7 @@ import {
         
          {/* Contact form */}       
           <Box
-            bg="red.500"
+            bg={'brand.900'}
             color="white"
             borderRadius="lg"
             m={{ sm: 4, md: 16, lg: 8 }}
@@ -132,8 +132,8 @@ import {
               <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
                 <WrapItem>
                   <Box>
-                    <Heading textAlign={'center'}>Contact</Heading>
-                    <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.200">
+                    <Heading textAlign={'center'} color={'brand.500'}>Contact</Heading>
+                    <Text mt={{ sm: 3, md: 3, lg: 5 }} color={'brand.500'}>
                       Fill out the form or directly contact
                     </Text>
                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
@@ -143,9 +143,9 @@ import {
                           height="48px"
                           width="200px"
                           variant="ghost"
-                          color="#DCE2FF"
+                          color={'brand.500'}
                           _hover={{ border: '2px solid #1C6FEB' }}
-                          leftIcon={<MdPhone color='white' size="20px" />}>
+                          leftIcon={<MdPhone color='black' size="20px" />}>
                           +13032293663
                         </Button>
                         <Button
@@ -153,9 +153,9 @@ import {
                           height="48px"
                           width="275px"
                           variant="ghost"
-                          color="#DCE2FF"
+                          color={'brand.500'}
                           _hover={{ border: '2px solid #1C6FEB' }}
-                          leftIcon={<MdEmail color='white' size="20px" />}>
+                          leftIcon={<MdEmail color='black' size="20px" />}>
                           cj.christian.web@gmail.com
                         </Button>
                         <Button
@@ -163,9 +163,9 @@ import {
                           height="48px"
                           width="200px"
                           variant="ghost"
-                          color="#DCE2FF"
+                          color={'brand.500'}
                           _hover={{ border: '2px solid #1C6FEB' }}
-                          leftIcon={<MdLocationOn color='white' size="20px" />}>
+                          leftIcon={<MdLocationOn color='black' size="20px" />}>
                           Austin, TX
                         </Button>
                       </VStack>

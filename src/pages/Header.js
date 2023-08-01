@@ -14,7 +14,7 @@ export default function Header() {
             backgroundPosition="center"
             backgroundRepeat="no-repeat"
             backgroundSize="cover"
-            bg={'red.500'}
+            bg={'brand.900'}
             p={10}
             >
 

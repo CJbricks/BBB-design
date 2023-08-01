@@ -39,7 +39,7 @@ import {
                   </Highlight>
               </Text>
               <br />
-              <Text as={'span'} color={'red.400'}>
+              <Text as={'span'} color={'brand.800'}>
                 customize your site and pages.
               </Text>
             </Heading>
@@ -55,8 +55,8 @@ import {
                 size={'lg'}
                 fontWeight={700}
                 px={6}
-                bg={'red.400'}
-                _hover={{ bg: 'red.500' }}>
+                bg={'brand.900'}
+                _hover={{ bg: 'brand.600' }}>
                 Get A Quote!
               </Button>
               </Link>
@@ -85,7 +85,7 @@ import {
               top={'-20%'}
               left={0}
               zIndex={-1}
-              color={useColorModeValue('red.400', 'red.400')}
+              color={'brand.900'}
             />
             {/* Unused attributes
               rounded={'2xl'}

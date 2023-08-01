@@ -59,7 +59,7 @@ const SocialButton = ({
 
 const ListHeader = ({ children }) => {
   return (
-    <Text fontWeight={'500'} fontSize={'lg'} mb={2} color={'red.600'}>
+    <Text fontWeight={'500'} fontSize={'lg'} mb={2} color={'brand.600'}>
       {children}
     </Text>
   );
@@ -159,7 +159,7 @@ export default function Footer() {
               />
               
               <IconButton
-                bg={useColorModeValue('red.500', 'red.500')}
+                bg={'red.600'}
                 color={useColorModeValue('gray.800')}
                 _hover={{
                   bg: 'red.600',

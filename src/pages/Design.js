@@ -77,12 +77,12 @@ import {
                 as={'span'}
                 position={'relative'}
                 >
-                  <Highlight query={'design'} styles={{ px: '5', py: '.5', rounded: 'full', bg: 'red.500', opacity: '85%' }}>
+                  <Highlight query={'design'} styles={{ px: '5', py: '.5', rounded: 'full', bg: 'brand.900', opacity: '85%' }}>
                     Bold Graphic Design
                   </Highlight>
               </Text>
               <br />
-              <Text as={'span'} color={'red.400'}>
+              <Text as={'span'} color={'brand.600'}>
                 Custom merchandise, web pages, books, logos, and more.
               </Text>
             </Heading>
@@ -98,8 +98,8 @@ import {
                 size={'lg'}
                 fontWeight={700}
                 px={6}
-                bg={'red.400'}
-                _hover={{ bg: 'red.500' }}>
+                bg={'brand.800'}
+                _hover={{ bg: 'brand.700' }}>
                 Get A Quote!
               </Button>
               </Link>

@@ -37,12 +37,12 @@ import {
                 as={'span'}
                 position={'relative'}
                 >
-                  <Highlight query={'development'} styles={{ px: '5', py: '.5', rounded: 'full', bg: 'red.500', opacity: '85%' }}>
+                  <Highlight query={'development'} styles={{ px: '5', py: '.5', rounded: 'full', bg: 'red.600', opacity: '85%' }}>
                     Mobile First Development
                   </Highlight>
               </Text>
               <br />
-              <Text as={'span'} color={'red.400'}>
+              <Text as={'span'} color={'brand.500'}>
                 Fully responsive scalable sites, pages, and applications.
               </Text>
             </Heading>
@@ -58,8 +58,8 @@ import {
                 size={'lg'}
                 fontWeight={700}
                 px={6}
-                bg={'red.400'}
-                _hover={{ bg: 'red.500' }}>
+                bg={'brand.900'}
+                _hover={{ bg: 'orange.400' }}>
                 Get A Quote!
               </Button>
               </Link>
