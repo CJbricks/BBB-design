@@ -32,7 +32,7 @@ import {
             align={'center'}
             position={'relative'}
             w={'full'}
-            mr={8}>
+            mr={[0, 8]}>
 
         {/* -- Blob behind image -- 
 

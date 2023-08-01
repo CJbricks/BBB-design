@@ -37,12 +37,12 @@ import {
                 as={'span'}
                 position={'relative'}
                 >
-                  <Highlight query={'development'} styles={{ px: '5', py: '.5', rounded: 'full', bg: 'red.600', opacity: '85%' }}>
+                  <Highlight query={'development'} styles={{ px: '5', py: '.5', rounded: 'full', bg: 'brand.900', opacity: '85%' }}>
                     Mobile First Development
                   </Highlight>
               </Text>
               <br />
-              <Text as={'span'} color={'brand.500'}>
+              <Text as={'span'} color={'brand.600'}>
                 Fully responsive scalable sites, pages, and applications.
               </Text>
             </Heading>
@@ -81,7 +81,7 @@ import {
             align={'center'}
             position={'relative'}
             w={'full'}
-            ml={8}>
+            ml={[0, 8]}>
 
         {/* -- Blob behind image -- 
 

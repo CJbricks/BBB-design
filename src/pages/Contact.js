@@ -94,7 +94,7 @@ import {
                 left={0}
                 zIndex={-1}
                 
-                color={'brand.600'}
+                color={'brand.700'}
               />
               
               {/* Unused attributes
@@ -132,8 +132,8 @@ import {
               <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
                 <WrapItem>
                   <Box>
-                    <Heading textAlign={'center'} color={'brand.500'}>Contact</Heading>
-                    <Text mt={{ sm: 3, md: 3, lg: 5 }} color={'brand.500'}>
+                    <Heading textAlign={'center'} color={'brand.600'}>Contact</Heading>
+                    <Text mt={{ sm: 3, md: 3, lg: 5 }} color={'brand.600'}>
                       Fill out the form or directly contact
                     </Text>
                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
@@ -143,8 +143,8 @@ import {
                           height="48px"
                           width="200px"
                           variant="ghost"
-                          color={'brand.500'}
-                          _hover={{ border: '2px solid #1C6FEB' }}
+                          color={'brand.600'}
+                          _hover={{ border: '2px solid #285E61' }}
                           leftIcon={<MdPhone color='black' size="20px" />}>
                           +13032293663
                         </Button>
@@ -153,8 +153,8 @@ import {
                           height="48px"
                           width="275px"
                           variant="ghost"
-                          color={'brand.500'}
-                          _hover={{ border: '2px solid #1C6FEB' }}
+                          color={'brand.600'}
+                          _hover={{ border: '2px solid #285E61' }}
                           leftIcon={<MdEmail color='black' size="20px" />}>
                           cj.christian.web@gmail.com
                         </Button>
@@ -163,8 +163,8 @@ import {
                           height="48px"
                           width="200px"
                           variant="ghost"
-                          color={'brand.500'}
-                          _hover={{ border: '2px solid #1C6FEB' }}
+                          color={'brand.600'}
+                          _hover={{ border: '2px solid #285E61' }}
                           leftIcon={<MdLocationOn color='black' size="20px" />}>
                           Austin, TX
                         </Button>

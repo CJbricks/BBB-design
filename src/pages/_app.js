@@ -10,9 +10,9 @@ export default function App({ Component, pageProps }) {
     brand: {
       900: '#fceec5',
       800: '#367ad3',
-      700: '#00b2ff',
+      700: '#285E61',
       600: '#a8501a',
-      500: '#a8501a'
+      500: '#C53030'
     },
   }
 
