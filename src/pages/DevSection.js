@@ -79,7 +79,7 @@ import {
             position={'relative'}
             w={'full'}>
             <Blob
-              w={'110%'}
+              w={'100%'}
               h={'150%'}
               position={'absolute'}
               top={'-20%'}

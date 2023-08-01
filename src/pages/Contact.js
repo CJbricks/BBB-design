@@ -30,7 +30,7 @@ import {
     MdFacebook,
     MdOutlineEmail,
   } from 'react-icons/md';
-  import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
+  import { BsGithub, BsDiscord, BsPerson, BsInstagram, BsBook } from 'react-icons/bs';
   import styles from '@/styles/Menu.module.css'
   
   export default function contact() {
@@ -68,6 +68,7 @@ import {
           <Flex>
           
             {/* Second Blob Image */}
+            <Hide below='md'>
             <Flex
               flex={1}
               justify={'center'}
@@ -75,7 +76,7 @@ import {
               position={'relative'}
               w={'90%'}
               height={'90%'}>
-              <Hide below='md'>
+             
                 <Blob
                 w={'90%'}
                 h={'150%'}
@@ -118,26 +119,27 @@ import {
                   }
                 />
               </Box>
-              </Hide>
+              
             </Flex>
+            </Hide>
         
          {/* Contact form */}       
           <Box
             bg={'brand.900'}
             color="white"
             borderRadius="lg"
-            m={{ sm: 4, md: 16, lg: 8 }}
+            m={{ sm: 0, md: 16, lg: 8 }}
             p={{ sm: 5, md: 5, lg: 14 }}>
-            <Box p={4}>
+            <Box p={[8, 4]}>
               <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
                 <WrapItem>
                   <Box>
-                    <Heading textAlign={'center'} color={'brand.600'}>Contact</Heading>
-                    <Text mt={{ sm: 3, md: 3, lg: 5 }} color={'brand.600'}>
+                    <Heading textAlign={'left'} color={'brand.600'}>Let's get started!</Heading>
+                    <Text mt={{ sm: 3, md: 3, lg: 3 }} color={'brand.600'}>
                       Fill out the form or directly contact
                     </Text>
                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
-                      <VStack pl={0} spacing={3} alignItems="flex-start">
+                      <VStack spacing={3} alignItems="flex-start">
                         <Button
                           size="md"
                           height="48px"
@@ -173,22 +175,22 @@ import {
                     <HStack
                       mt={{ lg: 10, md: 10 }}
                       spacing={5}
-                      px={5}
+                      px={8}
                       alignItems="flex-start">
                       <IconButton
-                        aria-label="facebook"
+                        aria-label="Blog"
                         variant="ghost"
                         size="lg"
                         isRound={true}
-                        _hover={{ bg: '#0D74FF' }}
-                        icon={<MdFacebook size="28px" />}
+                        _hover={{ bg: 'gray.200' }}
+                        icon={<BsBook size="28px" />}
                       />
                       <IconButton
                         aria-label="github"
                         variant="ghost"
                         size="lg"
                         isRound={true}
-                        _hover={{ bg: '#0D74FF' }}
+                        _hover={{ bg: 'gray.200' }}
                         icon={<BsGithub size="28px" />}
                       />
                       <IconButton
@@ -196,8 +198,8 @@ import {
                         variant="ghost"
                         size="lg"
                         isRound={true}
-                        _hover={{ bg: '#0D74FF' }}
-                        icon={<BsDiscord size="28px" />}
+                        _hover={{ bg: 'gray.200' }}
+                        icon={<BsInstagram size="28px" />}
                       />
                     </HStack>
                   </Box>
