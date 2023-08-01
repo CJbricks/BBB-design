@@ -15,6 +15,7 @@ import Navbar from './Navbar.js'
 import Footer from './Footer.js'
 import Carousel from './Carousel.js'
 import Loom from './Loom.js'
+import Sites from './Sites.js'
 
 
 export default function GalleryMain() {
@@ -23,6 +24,7 @@ export default function GalleryMain() {
     <>
     <Navbar />
     <Carousel />
+    <Sites />
     {/* Some images from Daybreak Design Book */}
 
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }} >

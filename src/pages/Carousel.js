@@ -147,7 +147,7 @@ export default function Carousel() {
                   {/* If box background is active change Stack > top=50% */}
 
                 {/*<Box w={['90%', '90%', 'full']} bg={'gray.100'} opacity={'85%'} p={5} position={'absolute'} z-index={-1} borderRadius={'20px'} boxShadow='-1px 3px 10px 0px rgba(0,0,0,0.75)'>*/}
-                  <Heading color={'red.600'} fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }} fontWeight={700} bg={[null, 'gray.200']} p={2}>
+                  <Heading color={'brand.600'} fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }} fontWeight={700} bg={[null, 'brand.900']} p={2}>
                     { card.title}
                   </Heading>
                   <Text color={'whiteAlpha.900'} fontSize={{ base: 'md', lg: 'lg' }} fontWeight={600} p={[4, 0, 0]}>
