@@ -25,7 +25,7 @@ export default function GalleryMain() {
     <Navbar />
     <Carousel />
     <Sites />
-    {/* Some images from Daybreak Design Book */}
+    {/* Some images from Daybreak Design Book 
 
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }} >
           <Flex flex={1} wrap={'wrap'} align={'center'} justify={'center'} width={'full'} height={'full'} m={2}>
@@ -57,6 +57,7 @@ export default function GalleryMain() {
               </Button>
             </Link>
       </Stack>
+    */}
       <Loom />
     <Footer />
     </>

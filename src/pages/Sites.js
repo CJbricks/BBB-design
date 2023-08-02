@@ -38,7 +38,7 @@ export default function BasicStatistics() {
   return (
     <Box maxW="7xl" mx={'auto'} pt={5} px={{ base: 2, sm: 12, md: 17 }} my={8}>
       <Heading textAlign={'center'} fontSize={'4xl'} py={10} fontWeight={'bold'} color={'brand.600'}>
-        Some sites and brands we have worked with.
+        Sites We Develop
       </Heading>
       <SimpleGrid columns={{ base: 1, md: 3, lg: 3 }} spacing={{ base: 5, lg: 8 }}>
         <Box>
@@ -57,20 +57,6 @@ export default function BasicStatistics() {
         </Box>
         <Box>
         <Heading align={'center'} color={'brand.700'} my={4}>
-                Mario Gonz Mods
-            </Heading>
-            <Image 
-                src='/images/mario-docs.jpg'
-                alt='daybreak-site-image'
-                w={'full'}
-                borderTopRadius={'500px'}
-                />
-            <Text color={'gray.500'} p={2} >
-              Mario Gonzalez is a body modification artist from Denver Colorado.
-            </Text>
-        </Box>
-        <Box>
-        <Heading align={'center'} color={'brand.700'} my={4}>
                 CJ Christian Art
             </Heading>
             <Image 
@@ -81,20 +67,6 @@ export default function BasicStatistics() {
                 />
             <Text color={'gray.500'} p={2}>
               CJ Christian is a fine artist and designer from Austin Texas.
-            </Text>
-        </Box>
-        <Box>
-        <Heading align={'center'} color={'brand.700'} my={4}>
-                Happy Monkey IV
-            </Heading>
-            <Image 
-                src='/images/iv-docs.jpg'
-                alt='daybreak-site-image'
-                w={'full'}
-                borderTopRadius={'500px'}
-                />
-            <Text color={'gray.500'} p={2}>
-              Happy Monkey is a mobile Iv Hydration company serving various events such as athletic events, music festivals, and home calls.
             </Text>
         </Box>
         <Box>
@@ -111,6 +83,35 @@ export default function BasicStatistics() {
              Stat Sheet is a Javascript based trivia game. You can play here.
             </Text>
         </Box>
+        <Box>
+        <Heading align={'center'} color={'brand.700'} my={4}>
+                Mario Gonz Mods
+            </Heading>
+            <Image 
+                src='/images/mario-docs.jpg'
+                alt='daybreak-site-image'
+                w={'full'}
+                borderTopRadius={'500px'}
+                />
+            <Text color={'gray.500'} p={2} >
+              Mario Gonzalez is a body modification artist from Denver Colorado.
+            </Text>
+        </Box>
+        <Box>
+        <Heading align={'center'} color={'brand.700'} my={4}>
+                Happy Monkey IV
+            </Heading>
+            <Image 
+                src='/images/iv-docs.jpg'
+                alt='daybreak-site-image'
+                w={'full'}
+                borderTopRadius={'500px'}
+                />
+            <Text color={'gray.500'} p={2}>
+              Happy Monkey is a mobile Iv Hydration company serving various events such as athletic events, music festivals, and home calls.
+            </Text>
+        </Box>
+        
         <Box>
         <Heading align={'center'} color={'brand.700'} my={4}>
                 Woofies K9

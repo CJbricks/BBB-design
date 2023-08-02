@@ -74,7 +74,7 @@ export default function Navbar() {
                _hover={{
                  textDecoration: 'none',
                  bg: 'brand.900',
-               }}>Services</Link>
+               }}>About</Link>
               <Link 
                 href='/GalleryMain'
                 px={2}
@@ -160,7 +160,7 @@ export default function Navbar() {
                _hover={{
                  textDecoration: 'none',
                  bg: useColorModeValue('gray.400', 'gray.500'),
-               }}>Services</Link>
+               }}>About</Link>
               <Link 
                 href='/GalleryMain'
                 px={2}
