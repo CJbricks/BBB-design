@@ -7,6 +7,7 @@ import Contact from './Contact.js'
 import Carousel from './Carousel.js'
 import Design from './Design.js'
 import Mobile from './Mobile'
+import InfoCard from './InfoCard.js'
 
 export default function Body() {
   return (
@@ -16,7 +17,7 @@ export default function Body() {
       <DevSection />
       <Design />
       <Mobile />
-      
+      <InfoCard />
       <Contact />
     <Footer />
     </>
