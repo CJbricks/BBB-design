@@ -16,6 +16,7 @@ import {
     Highlight
   } from '@chakra-ui/react'
   import Link from 'next/link'
+  import styles from '@/styles/Home.module.css'
   
   export default function Mobile() {
     return (
@@ -111,8 +112,9 @@ import {
                 align={'center'}
                 w={'100%'}
                 h={'100%'}
-                src={'/images/phone-ui-two.jpg'
-                }
+                src={'/images/phone-ui-two.jpg'}
+                className={styles.fade}
+                
               />
             </Box>
           </Flex>

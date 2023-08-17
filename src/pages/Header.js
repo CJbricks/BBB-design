@@ -1,6 +1,7 @@
 import React from 'react'
 import FlatMenu from './FlatMenu.js'
 import { Image, Text, Box, SimpleGrid, Spacer, Center, Container } from '@chakra-ui/react'
+import styles from '@/styles/Home.module.css'
 
 export default function Header() {
   return (
@@ -18,7 +19,7 @@ export default function Header() {
             p={10}
             >
 
-            <Image src='/images/brick-logo-stack.png' alt="BBB-logo-banner-image" />
+            <Image src='/images/brick-logo-stack.png' alt="BBB-logo-banner-image" className={styles.fade} />
         </Box>
     </>
   )

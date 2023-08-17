@@ -16,6 +16,7 @@ import {
     Highlight
   } from '@chakra-ui/react'
   import Link from 'next/link'
+  import styles from '@/styles/Home.module.css'
   
   export default function Design() {
     return (
@@ -55,7 +56,7 @@ import {
               width={'full'}
               overflow={'hidden'}
               >
-            
+            <div className={styles.fade}>
               <Image
                 alt={'bbb-logo-hero-image'}
                 fit={'cover'}
@@ -65,6 +66,7 @@ import {
                 src={'/images/merch-example-picture.jpg'
                 }
               />
+            </div>
             </Box>
           </Flex>
 
