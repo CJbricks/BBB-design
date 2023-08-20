@@ -20,8 +20,7 @@ import {
     Textarea,
     useColorModeValue,
     Icon,
-    Image,
-    Hide
+    Image
   } from '@chakra-ui/react';
   import {
     MdPhone,
