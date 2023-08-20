@@ -37,28 +37,28 @@ import {
               </Text>
               <br />{' '}
               <Text color={'brand.900'} as={'span'}>
-                And My Mission
+                And My Vision
               </Text>{' '}
             </Heading>
-            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.800'}>
-                <Highlight query={'your vision.'} styles={{ bg: 'brand.900', px: '.5', py: '.5', rounded: 'full' }}>
+            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.200'}>
+                <Highlight query={'your vision.'} styles={{ bg: 'brand.900', px: '1', py: '.5', rounded: 'full' }}>
                 Hi, My name is Cody and I am a Web Developer and Designer from Austin Tx.
                 Bricks Design and Development is a company dedicated to implementing beautiful design and functional development for your
-                business or project. My background lies in fine art and sculpture which is where I learned to use my hands and mind to problem
-                solve to find creative and beautiful ways to express my own vision. Since moving into the world of web development I started using new tools
+                business or project. My background lies in fine art and sculpture which is where I learned to use my hands to problem
+                solve to find creative and beautiful ways to express my own vision. Since moving into the world of web development and design I started using new tools
                 such as Javascript, Typescript, React, HTML, CSS, and Node.js to explore creative ways to solve problems and build projects online. Now my goal 
                 is to amplify your vision.
-                I would love to hear from you if you have a project proposal or job inquiry click the Get Started button and send me a direct email. 
+                I would love to hear from you if you have a project proposal, application, or job inquiry click the Get Started button and send me a direct message. 
                 </Highlight>
             </Text>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             <Link href='mailto:cj.christian.web@gmail.com' target='_blank'>
               <Button
                 rounded={'full'}
-                bg={'brand.600'}
-                color={'white'}
+                bg={'brand.900'}
+                color={'black'}
                 _hover={{
-                  bg: 'brand.500',
+                  bg: 'brand.800',
                 }}>
                 Get Started
               </Button>

@@ -85,7 +85,7 @@ export default function Navbar() {
                   bg: 'brand.900',
                 }}>Gallery</Link>
                  <Link 
-                href='/LinkPage'
+                href='/ContactPage'
                 px={2}
                 py={1}
                 rounded={'full'}
@@ -143,7 +143,7 @@ export default function Navbar() {
                  }}>Home</Link>
 
             <Link 
-                    href='/LinkPage'
+                    href='/ContactPage'
                     px={2}
                     py={1}
                     rounded={'full'}
