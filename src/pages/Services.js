@@ -4,6 +4,7 @@ import Footer from './Footer.js'
 import BotAd from './BotAd.js'
 import Programs from './Programs.js'
 import Loom from './Loom.js'
+import InfoCard from './InfoCard.js'
 
 
 export default function Services() {
@@ -11,6 +12,7 @@ export default function Services() {
     <>
     <Navbar />
         <Programs />
+        <InfoCard />
         <BotAd />
     <Footer />
     

@@ -11,6 +11,7 @@ import {
   Heading,
   Text
 } from '@chakra-ui/react'
+import Link from 'next/link'
 
 
 function Sites(props) {
@@ -54,6 +55,9 @@ export default function BasicStatistics() {
             <Text color={'gray.500'} p={2}>
               Daybreak is an art book company run out of Denver Colorado.
             </Text>
+            <Text color={'gray.900'} p={2}>
+            Visit <Link href="https://daybreak-beta.vercel.app" target="_blank">Daybreak</Link>.
+            </Text>
         </Box>
         <Box>
         <Heading align={'center'} color={'brand.700'} my={4}>
@@ -67,7 +71,11 @@ export default function BasicStatistics() {
                 />
             <Text color={'gray.500'} p={2}>
               CJ Christian is a fine artist and designer from Austin Texas.
-            </Text>
+              </Text>
+              <Text color={'gray.900'} p={2}>
+              Visit <Link href="https://cjchristian.com" target="_blank">Here</Link>.
+            
+              </Text>
         </Box>
         <Box>
         <Heading align={'center'} color={'brand.700'} my={4}>
@@ -80,7 +88,10 @@ export default function BasicStatistics() {
                 borderTopRadius={'500px'}
                 />
             <Text color={'gray.500'} p={2}>
-             Stat Sheet is a Javascript based trivia game. You can play here.
+             Stat Sheet is a Javascript based trivia game. 
+            </Text>
+            <Text color={'gray.900'} p={2}>
+            Old version Visit <Link href="https://tay-game.surge.sh" target="_blank">here</Link>.
             </Text>
         </Box>
         <Box>
@@ -110,6 +121,9 @@ export default function BasicStatistics() {
             <Text color={'gray.500'} p={2}>
               Happy Monkey is a mobile Iv Hydration company serving various events such as athletic events, music festivals, and home calls.
             </Text>
+            <Text color={'gray.900'} p={2}>
+            Visit <Link href="https://happymonkeyiv.com" target="_blank">Happy Monkey</Link>.
+            </Text>
         </Box>
         
         <Box>
@@ -123,8 +137,9 @@ export default function BasicStatistics() {
                 borderTopRadius={'500px'}
                 />
         <Text color={'gray.500'} p={2}>
-              Woofies K9 is a Dog training and boarding facility in Parker Colorado. Visit here.
+              Woofies K9 is a Dog training and boarding facility in Parker Colorado.
             </Text>
+            <Text color={'gray.900'} p={2}> Visit <Link href="https://woofiesk9.com" target="_blank">Woofies K9!</Link>.</Text>
         </Box>
 
     </SimpleGrid>

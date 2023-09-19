@@ -15,15 +15,15 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/ContactPage": [
+    "/Body": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ContactPage.js"
+      "static/chunks/pages/Body.js"
     ],
-    "/LinkPage": [
+    "/GalleryMain": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/LinkPage.js"
+      "static/chunks/pages/GalleryMain.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

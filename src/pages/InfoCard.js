@@ -33,16 +33,16 @@ import {
                   zIndex: -1,
                   rounded: 'full'
                 }}>
-                About Me
+                About Bricks Design House
               </Text>
               <br />{' '}
               <Text color={'brand.900'} as={'span'}>
-                And My Vision
+                And Our Vision
               </Text>{' '}
             </Heading>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.200'}>
                 <Highlight query={'your vision.'} styles={{ bg: 'brand.900', px: '1', py: '.5', rounded: 'full' }}>
-                Hi, My name is Cody and I am a Web Developer and Designer from Austin Tx.
+                Hi, My name is CJ and I am a Web Developer and Designer from Austin Tx.
                 Bricks Design and Development is a company dedicated to implementing beautiful design and functional development for your
                 business or project. My background lies in fine art and sculpture which is where I learned to use my hands to problem
                 solve to find creative and beautiful ways to express my own vision. Since moving into the world of web development and design I started using new tools
