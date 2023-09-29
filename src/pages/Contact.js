@@ -31,6 +31,7 @@ import {
   } from 'react-icons/md';
   import { BsGithub, BsDiscord, BsPerson, BsInstagram, BsBook } from 'react-icons/bs';
   import styles from '@/styles/Menu.module.css'
+  import Link from 'next/link'
   
   export default function contact() {
 
@@ -82,36 +83,42 @@ import {
                     </Text>
                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
                       <VStack spacing={3} alignItems="flex-start">
-                        <Button
-                          size="md"
-                          height="48px"
-                          width="200px"
-                          variant="ghost"
-                          color={'brand.600'}
-                          _hover={{ border: '2px solid #285E61' }}
-                          leftIcon={<MdPhone color='black' size="20px" />}>
-                          +13032293663
-                        </Button>
-                        <Button
-                          size="md"
-                          height="48px"
-                          width="275px"
-                          variant="ghost"
-                          color={'brand.600'}
-                          _hover={{ border: '2px solid #285E61' }}
-                          leftIcon={<MdEmail color='black' size="20px" />}>
-                          cj.christian.web@gmail.com
-                        </Button>
-                        <Button
-                          size="md"
-                          height="48px"
-                          width="200px"
-                          variant="ghost"
-                          color={'brand.600'}
-                          _hover={{ border: '2px solid #285E61' }}
-                          leftIcon={<MdLocationOn color='black' size="20px" />}>
-                          Austin, TX
-                        </Button>
+                        <Link href="" >
+                          <Button
+                            size="md"
+                            height="48px"
+                            width="200px"
+                            variant="ghost"
+                            color={'brand.600'}
+                            _hover={{ border: '2px solid #285E61' }}
+                            leftIcon={<MdPhone color='black' size="20px" />}>
+                            +13032295555
+                          </Button>
+                        </Link>
+                        <Link href="mailto:cj.christian.web@gmail.com">
+                          <Button
+                            size="md"
+                            height="48px"
+                            width="275px"
+                            variant="ghost"
+                            color={'brand.600'}
+                            _hover={{ border: '2px solid #285E61' }}
+                            leftIcon={<MdEmail color='black' size="20px" />}>
+                            cj.christian.web@gmail.com
+                          </Button>
+                        </Link>
+                        <Link href="https://www.google.com/maps/place/Austin,+TX/@30.5262498,-97.6027648,15z/data=!4m6!3m5!1s0x8644b599a0cc032f:0x5d9b464bd469d57a!8m2!3d30.267153!4d-97.7430608!16zL20vMHZ6bQ?entry=ttu" target="_blank">
+                          <Button
+                            size="md"
+                            height="48px"
+                            width="200px"
+                            variant="ghost"
+                            color={'brand.600'}
+                            _hover={{ border: '2px solid #285E61' }}
+                            leftIcon={<MdLocationOn color='black' size="20px" />}>
+                            Austin, TX
+                          </Button>
+                        </Link>
                       </VStack>
                     </Box>
                     <HStack
@@ -119,30 +126,36 @@ import {
                       spacing={5}
                       px={8}
                       alignItems="flex-start">
-                      <IconButton
-                        aria-label="Blog"
-                        variant="ghost"
-                        size="lg"
-                        isRound={true}
-                        _hover={{ bg: 'gray.200' }}
-                        icon={<BsBook size="28px" />}
-                      />
-                      <IconButton
-                        aria-label="github"
-                        variant="ghost"
-                        size="lg"
-                        isRound={true}
-                        _hover={{ bg: 'gray.200' }}
-                        icon={<BsGithub size="28px" />}
-                      />
-                      <IconButton
-                        aria-label="instagram"
-                        variant="ghost"
-                        size="lg"
-                        isRound={true}
-                        _hover={{ bg: 'gray.200' }}
-                        icon={<BsInstagram size="28px" />}
-                      />
+                        <Link href="/Blog">
+                        <IconButton
+                          aria-label="Blog"
+                          variant="ghost"
+                          size="lg"
+                          isRound={true}
+                          _hover={{ bg: 'gray.200' }}
+                          icon={<BsBook size="28px" />}
+                        />
+                      </Link>
+                      <Link href="https://github.com/CJbricks" target="_blank">
+                        <IconButton
+                          aria-label="github"
+                          variant="ghost"
+                          size="lg"
+                          isRound={true}
+                          _hover={{ bg: 'gray.200' }}
+                          icon={<BsGithub size="28px" />}
+                        />
+                      </Link>
+                      <Link href="https://instagram.com/oreo.blizman" target="_blank">
+                        <IconButton
+                          aria-label="instagram"
+                          variant="ghost"
+                          size="lg"
+                          isRound={true}
+                          _hover={{ bg: 'gray.200' }}
+                          icon={<BsInstagram size="28px" />}
+                        />
+                      </Link>
                     </HStack>
                   </Box>
                 </WrapItem>
