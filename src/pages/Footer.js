@@ -20,8 +20,8 @@ import { FaInstagram, FaTwitter, FaYoutube, FaGoogle, FaLaptop, FaGithub, FaFlic
 const Logo = (props, any) => {
   return (
     <Image 
-    src='/images/bbb-head-logo.png'
-    alt='bricks-logo-small'
+    src='/images/ghost-logo-bricks-design.png'
+    alt='bricks-design-house-logo-small'
     width={40}
     height={40}
     />
@@ -100,7 +100,7 @@ export default function Footer() {
               <Logo color={useColorModeValue('gray.700', 'white')} />
             </Box>
             <Text fontSize={'sm'}>
-              © 2023 Brick By Brick Design.
+              © 2023 Bricks Design House.
               <br /> 
               All rights reserved
               <br />
