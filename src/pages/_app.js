@@ -12,7 +12,8 @@ export default function App({ Component, pageProps }) {
       800: '#367ad3',
       700: '#285E61',
       600: '#a8501a',
-      500: '#C53030'
+      500: '#C53030',
+      400: '#e2e8f0'
     },
   }
 

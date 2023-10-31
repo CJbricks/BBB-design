@@ -20,12 +20,15 @@ import {
   
   export default function Design() {
     return (
+      <Box bg={'brand.400'}>
       <Container maxW={'7xl'}>
         <Stack
           align={'center'}
           spacing={{ base: 8, md: 10 }}
           py={{ base: 20, md: 28 }}
-          direction={{ base: 'column', md: 'row' }}>
+          direction={{ base: 'column', md: 'row' }}
+          
+          >
 
         <Flex
             flex={1}
@@ -55,6 +58,7 @@ import {
               borderTopRadius={'500px'}
               width={'full'}
               overflow={'hidden'}
+              
               >
             <div className={styles.fade}>
               <Image
@@ -70,7 +74,7 @@ import {
             </Box>
           </Flex>
 
-          <Stack flex={1} spacing={{ base: 5, md: 10 }}>
+          <Stack flex={1} spacing={{ base: 5, md: 10 }} >
             <Heading
               lineHeight={1.1}
               fontWeight={600}
@@ -120,6 +124,7 @@ import {
           
         </Stack>
       </Container>
+      </Box>
     );
   }
   
