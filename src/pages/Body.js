@@ -8,6 +8,7 @@ import Carousel from './Carousel.js'
 import Design from './Design.js'
 import Mobile from './Mobile'
 import InfoCard from './InfoCard.js'
+import Instagram from './Instagram.js'
 
 export default function Body() {
   return (
@@ -19,6 +20,7 @@ export default function Body() {
       <Mobile />
       <InfoCard />
       <Contact />
+      <Instagram />
     <Footer />
     </>
   )
