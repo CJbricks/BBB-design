@@ -40,11 +40,6 @@ import {
                 “The downfall of order brings good to none.”
               </Text>{' '}
             </Heading>
-            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.200'}>
-                <Highlight query={'your vision.'} styles={{ bg: 'brand.900', px: '1', py: '.5', rounded: 'full' }}>
-               ― Ernst Jünger, On the Marble Cliffs
-                </Highlight>
-            </Text>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             <Link href='mailto:cj.christian.web@gmail.com' target='_blank'>
               <Button
