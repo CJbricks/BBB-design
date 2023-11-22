@@ -39,6 +39,19 @@ import {
               <Text color={'brand.900'} as={'span'}>
                 “The downfall of order brings good to none.”
               </Text>{' '}
+              <Text color={'gray.900'} as={'span'} fontSize={'xl'}>
+                -Ernst Junger
+              </Text>{' '}
+              <br />
+              <br />{' '}
+              <Text color={'brand.900'} as={'span'}>
+                “Hella good dude, backed hard.”
+              </Text>{' '}
+              <Text color={'gray.900'} as={'span'} fontSize={'xl'}>
+                -My Mother
+              </Text> 
+              <br />
+              <br />{' '}
             </Heading>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             <Link href='mailto:cj.christian.web@gmail.com' target='_blank'>
