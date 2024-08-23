@@ -2,6 +2,7 @@ import '@/styles/globals.css';
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import '@fontsource/archivo-black/400.css';
 import '@fontsource/open-sans/400.css';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 export default function App({ Component, pageProps }) {
