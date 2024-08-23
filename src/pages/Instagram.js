@@ -16,6 +16,15 @@ export default function Instagram() {
         <Box align={'center'}>
             <InstagramEmbed url="https://www.instagram.com/p/ClEtwKoPvdp/" width={380} />
         </Box>
+        <Box align={'center'}>
+            <InstagramEmbed url="https://www.instagram.com/p/C4lMVbEr-Bn/" width={380} />
+        </Box>
+        <Box align={'center'}>
+            <InstagramEmbed url="https://www.instagram.com/p/C3LjNusP3IX/" width={380} />
+        </Box>
+        <Box align={'center'}>
+            <InstagramEmbed url="https://www.instagram.com/p/C-vuKfxySBs/" width={380} />
+        </Box>
     </SimpleGrid>
     </>
   )
